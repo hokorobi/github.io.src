@@ -1,20 +1,17 @@
-.. hokorobi.github.io documentation master file, created by
-   sphinx-quickstart on Sat Feb 23 19:09:24 2019.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-Welcome to hokorobi.github.io's documentation!
+hokorobi.github.io
 ==============================================
+
+Account
+--------
+
+* Twitter: `h0k0r0bi <https://twitter.com/h0k0r0bi>`_
+* Bitbucket: `hokorobi <https://bitbucket.org/hokorobi/>`_
+
+Contents
+---------
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
 
+   release_github.io
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
