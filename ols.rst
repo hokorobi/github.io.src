@@ -452,18 +452,19 @@ Update はソフトウェアがバージョンアップされた日ではなく�
      - Comment
      - Update
    * - `Cica <https://github.com/miiton/Cica>`_
-     - 4.0
-     - Vim, Paper plane xUI で使用するフォント
-       Paper Plane xUI は BDF M+ に戻した。
-     - 2018-09-17
+     - 4.1.1
+     - Conemu, Paper Plane xUI, Vim で使用。
+     - 2019-02-24
    * - `MyricaM <https://myrica.estable.jp/>`_
      - 2.012.20180119
-     - コマンドプロンプトで使用するフォント。
+     - Conemu, Paper Plane xUI で使用。
+       Cica へ変えてみている。 [2019-02-25]
      - 2018-09-08
    * - `BDF M+ <http://www1.kaoriya.net/>`_
      - 2.2.4p2
-     - Andale Mono の代わり。
+     - Paper Plane xUI の等幅フォントに使用。
        Bold, Italic も使えるから替えてみたけど使ってないぞ？
+       Cica へ変えてみている。 [2019-02-25]
      - 2010-04-25
    * - `Takaoゴシック <https://launchpad.net/takao-fonts>`_
      - 2015-03-04
@@ -929,6 +930,10 @@ kobo
    :header-rows: 1
    :widths: 15 10 60 10
 
+   * - Name
+     - Version
+     - Comment
+     - Update
    * - `AozoraEpub3 <http://www18.atwiki.jp/hmdev/pages/21.html>`_
      - 1.1.0b46
      - 青空文庫形式を ePub3 へ変換。kobo 用。
@@ -1038,8 +1043,8 @@ kobo
      - 2018-05-20
    * - `CrystalDiskInfo <http://crystalmark.info/>`_
      - 7.7.0
-     - HDD の S.M.A.R.T の情報などを表示してくれる。
-       APM をパフォーマンス最高で有効にすることで、操作の引っ掛かりがなくなった。
+     - | 操作感の引っ掛かりをなくす。
+       | 機能 - 上級者向け機能 - AAM/APM 設定 から対象のディスクを選択してパフォーマンス最高で有効にする。
      - 2018-09-24
    * - `CrystalDiskMark <http://crystalmark.info/>`_
      - 3.0.1
@@ -1082,10 +1087,28 @@ kobo
      - 2011-03-07
    * - `AutoHotkey <http://www.autohotkey.net/~Lexikos/AutoHotkey_L/>`_
      - 1.1.30.1 x64
-     - とりあえず XKeymacs の代わりになるように使ってみる。
-       1.1.21 系に変更してみた。大丈夫かな？ [2015-04-23]
-       1.1.27.00 はやたらと落ちるので 1.1.26.01 に戻した。Windows Update が原因の可能性もあるので様子見。[2017-12-27]
-       1.1.27.02 でマシになったみたい [2018-01-07]
+     - キーの入れ替えに使用。
+
+       管理者権限で実行されるプログラム（主に Everything）でも使えるように、AutoHotkey も管理者権限で実行する。
+       タスクスケジューラに AutoHotkey のタスクを登録。
+
+       * 「全般 - セキュリティオプション - 最上位の特権で実行する」にチェック
+       * 「トリガー」は無し
+       * 「操作 - 設定 - プログラム/スクリプト」に AutoHotkey のパス
+       * 「操作 - 設定 - 引数の追加」に実行したいスクリプトファイル
+       * 「設定 - タスクを停止するまでの時間」からチェックを外す。常駐させるため。
+
+       このままだと優先度が低くなっているので、エクスポートして Priority を 6 に変更。
+       その後、インポート。
+       効果は不明。
+
+       PC 起動時に実行::
+
+         schtasks.exe /Run /TN AutoHotkey
+
+       | 1.1.21 系に変更してみた。大丈夫かな？ [2015-04-23]
+       | 1.1.27.00 はやたらと落ちるので 1.1.26.01 に戻した。Windows Update が原因の可能性もあるので様子見。[2017-12-27]
+       | 1.1.27.02 でマシになったみたい [2018-01-07]
      - 2019-01-05
    * - `Stickies <http://www.zhornsoftware.co.uk/stickies/>`_
      - 7.1e
@@ -1128,6 +1151,10 @@ kobo
    :header-rows: 1
    :widths: 15 10 60 10
 
+   * - Name
+     - Version
+     - Comment
+     - Update
    * - `PyQt <http://www.riverbankcomputing.co.uk/>`_
      - 5.0.1
      - Python で GUI
