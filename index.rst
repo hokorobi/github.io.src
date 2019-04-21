@@ -15,4 +15,5 @@ Contents
 
    release_github.io
    ols
+   excel
    old

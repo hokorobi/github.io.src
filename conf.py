@@ -42,6 +42,8 @@ extensions = [
     'sphinx.ext.githubpages',
 ]
 
+extensions.append('sphinx_copybutton')
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
@@ -69,6 +71,8 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = None
 
+# html_context = {'html5_doctype': False}
+# html4_writer = True
 
 # -- Options for HTML output -------------------------------------------------
 
