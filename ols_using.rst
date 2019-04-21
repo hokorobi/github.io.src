@@ -28,9 +28,9 @@ Update はソフトウェアがバージョンアップされた日ではなく�
        | Paper Plane xUI でディレクトリの移動に使っている。
      - 2008-03-18
    * - `Paper Plane xUI <http://toro.d.dooo.jp/slppx.html>`_
-     - 1.65+3 x64
+     - 1.66+2 x64
      - DF 並に起動が速いけれど、カスタマイズが大変 (楽しい？) なファイラ。
-     - 2019-03-09
+     - 2019-04-15
    * - `Paper Plane xUI Window Module <http://toro.d.dooo.jp/slppx.html>`_
      - R7
      - 指定したウィンドウの最大化を交互におこなうコマンドと、指定したウィンドウ位置・大きさを別のウィンドウに合わせるコマンドが入った PPx Module。
@@ -52,10 +52,10 @@ Update はソフトウェアがバージョンアップされた日ではなく�
      - Paper Plane xUI で Migemo を使うため。
      - 2011-12-24
    * - `FastCopy <http://www.ipmsg.org/tools/fastcopy.html>`_
-     - 3.54 x64
+     - 3.70 x64
      - | 大量ファイルの削除時に使用。
        | 削除確認は PPx 側でダイアログを出して、実行時には /no_confirm_del を指定。
-     - 2018-09-24
+     - 2019-04-20
    * - `FreeFileSync <http://freefilesync.sourceforge.net/>`_
      - 10.10
      - ファイルのバックアップ。
@@ -113,10 +113,10 @@ Update はソフトウェアがバージョンアップされた日ではなく�
      - Comment
      - Update
    * - `Smart Defrag <http://www.iobit.com/>`_
-     - 6.1.5
+     - 6.2.0
      - | ブートタイムデフラグが出来ると言うことで使ってみたけど、あんまり良いようには思わない。
        | フォルダを指定してデフラグにも使う。
-     - 2018-12-22
+     - 2019-03-30
    * - `Ultra Defrag <http://ultradefrag.sourceforge.net/en/index.html>`_
      - 7.1.0
      - ブートタイムデフラグができるオープンソースデフラグソフト。
@@ -197,14 +197,14 @@ Update はソフトウェアがバージョンアップされた日ではなく�
      - Comment
      - Update
    * - `TortoiseHg <https://bitbucket.org/tortoisehg/thg/downloads>`_
-     - 4.9 x64
+     - 4.9.1 x64
      - GUI の Workbench を使う。
        Vim で python27.dll が認識されて gista が動かなくなるのでインストール後にパスから外している。
-     - 2019-02-26
+     - 2019-04-15
    * - `SourceTree <https://www.sourcetreeapp.com/>`_
-     - 3.0.17
+     - 3.1.2
      - Git の GUI クライアント
-     - 2019-02-16
+     - 2019-04-01
    * - `lazygit <https://github.com/jesseduffield/lazygit>`_
      - 0.7.2
      - Git の TUI クライアント
@@ -229,10 +229,10 @@ Update はソフトウェアがバージョンアップされた日ではなく�
        `1.222 では CD-ROM ドライブを開いてくれなくなってしまったので、1.220 に戻す。`:strike: 1.232 で改善されたのかな？
      - 2012-01-28
    * - `ExitWndw <http://home.att.ne.jp/delta/hrymkt/>`_
-     - 1.260
+     - 1.440
      - Windows の終了やログオフを CraftLaunch から。
        1.260 より後は動かない。1.260 は手違いで消してしまった。1.350 も動かなかった。
-     - 2013-06-08
+     - 2019-04-07
    * - `WhatInStartup <http://www.nirsoft.net/utils/what_run_in_startup.html>`_
      - 1.35 x64
      - スタートアップで実行されるプログラムを減らしたり増やしたり。
@@ -264,11 +264,11 @@ Update はソフトウェアがバージョンアップされた日ではなく�
        駄目人間化。
      - 2018-09-25
    * - `nyagos <https://github.com/zetamatta/nyagos/>`_
-     - 4.4.1_1 64bit
+     - 4.4.2_2 64bit
      - コマンドラインシェル。UNC が扱えるので、Mercurial と一緒に使えないか試してみる。
        最近は PowerShell を使い始めた。 [2016-03-12]
        nyagos に戻ってきた。 [2016-09-08]
-     - 2019-02-16
+     - 2019-04-15
    * - `TaskSchedulerView <http://www.nirsoft.net/utils/task_scheduler_view.html>`_
      - 1.30
      - タスクスケジューラの一覧表示
@@ -309,16 +309,16 @@ Update はソフトウェアがバージョンアップされた日ではなく�
      - Comment
      - Update
    * - `Vivaldi <https://vivaldi.com/?lang=ja_JP>`_
-     - 2.4.1448.35 x64
+     - 2.4.1448.38 x64
      - Chromium 派生 Web ブラウザ。
        Cyberfox から移行してきた。
        通知のデフォルトブロックは chrome://settings/content/notifications で設定 [2019-01-18]
-     - 2019-03-27
+     - 2019-04-12
    * - `Firefox <http://mozilla.jp/firefox/>`_
-     - 65.0.2
+     - 66.0.3
      - Web ブラウザ。
        サブブラウザを Firefox に戻した。 [2018-01-21]
-     - 2019-03-04
+     - 2019-04-11
    * - `WWWC <http://www.nakka.com/>`_
      - 1.1.2
      - Web ページの更新チェック。
@@ -372,12 +372,12 @@ Update はソフトウェアがバージョンアップされた日ではなく�
      - Comment
      - Update
    * - `Vim <https://github.com/vim/vim-win32-installer/releases>`_
-     - 8.1.1073
+     - 8.1.1193
      - | デフォルトエディタ。xyzzy から移行。
        | 7.3.1203はうまく動かなかった。Lingrが動かなかったのと、やっぱり色々と問題がありそう。
        | `8.0.0596-20170502 は gvim -c GrepWrap で <t_<fd>`> が入力されたので前のバージョンに戻した。 [2017-05-21]`:strike:
        | `gvim -c GrepWrap で <t_<fd>a> が入力されるが気にせず使っている。 [2017-11-30]`:strike: develop 8.0.1376 で改善されていた。 [2017-12-11]
-     - 2019-03-30
+     - 2019-04-21
    * - `cmigemo <https://www.kaoriya.net/software/cmigemo/>`_
      - 2011-02-27
      - Vim の easymotion で使用する。
@@ -397,10 +397,10 @@ Update はソフトウェアがバージョンアップされた日ではなく�
      - PDFリーダー。読んだ位置を記憶してくれる。
      - 2016-08-19
    * - `xdoc2txt <http://www31.ocn.ne.jp/~h_ishida/xdoc2txt.html>`_
-     - 2.17 x64
+     - 2.18 x64
      - 各種バイナリ文書からテキストを抽出する。
        WinMerge, Vim で使用中。
-     - 2018-10-16
+     - 2019-04-08
    * - `XpdfReadre <http://www.xpdfreader.com/>`_
      - 4.0.1
      - PDF からテキストを抽出する pdftotext を使用。
@@ -436,11 +436,11 @@ Update はソフトウェアがバージョンアップされた日ではなく�
        jvgrep よりも高速。
      - 2018-07-14
    * - `ripgrep <https://github.com/BurntSushi/ripgrep>`_
-     - 0.1.2
+     - 11.0.0
      - | 文字コード混在のファイルを grep できるソフト。
        | Platinum Searcher よりも高速らしい。
        | 出力の文字コードがファイルの文字コードになるよう。指定できないものだろうか？ [2018-08-04]
-     - 2019-02-21
+     - 2019-04-16
    * - `Pandoc <http://johnmacfarlane.net/pandoc/>`_
      - 2.7
      - | 文書の変換
@@ -480,6 +480,11 @@ Update はソフトウェアがバージョンアップされた日ではなく�
      - コマンドプロンプトで使用するフォント。
        2017-11-16 に MyricaM M に変更した。
      - 2015-06-28
+   * - `kindlegen <https://www.amazon.com/gp/feature.html?ie=UTF8&docId=1000765211>`_
+     - 2.9
+     - epub から mobi への変換。
+       Calibre も試したけどイマイチ。
+     - 2019-04-20
 
 音楽関係
 ~~~~~~~~
@@ -863,22 +868,17 @@ Update はソフトウェアがバージョンアップされた日ではなく�
      - Comment
      - Update
    * - `Python <http://www.python.org/>`_
-     - 64 bit 3.7.3, 32bit 3.7.3
+     - 64 bit 3.7.3
      - | メインの LL。
        | `Vim プラグインの Gista は 2.7 が入っていないと保存時にエラーになる。なぜだ？ [2017-05-14]`:strike:
        | TortoiseHg の python27.dll が Python 2.7 として認識されていた。TortoiseHg のパスをはずした。 [2018-02-03]
        | neovim が pynvim になって Windows の 3.7 でも使えるようになったので 3.6 は削除。 [2019-02-23]
-
-       * 3.7
-
-         * Vim が 3.7 を使うようになった。 [2018-09-14]
-         * 32bit は MultiPyAlarm 用。
-
-     - 2019-03-28, 2019-03-28
+       | 会社の PC が 64 bit になったので 32 bit は削除。 [2019-04-21]
+     - 2019-03-28
    * - `go <http://golang.org/>`_
-     - 1.12.1 64bit
+     - 1.12.4 64bit
      - go
-     - 2019-03-16
+     - 2019-04-12
    * - `Node.js <https://nodejs.org/ja/>`_
      - 6.10.3 LTS
      - textlint や plantuml-syntax-test で使用。
@@ -901,10 +901,10 @@ Update はソフトウェアがバージョンアップされた日ではなく�
      - Comment
      - Update
    * - `PDIC/Unicode <http://homepage3.nifty.com/TaN/>`_
-     - 5.8.53
+     - 5.10.64
      - `英辞郎2 <http://www.amazon.co.jp/dp/4757408382/>`_ を使って英語辞書として使っている。
        PDIC/Unicode の発音記号フォントは、 `Doulos SIL Font Home <http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&amp;item_id=DoulosSILfont>`_ を使う。
-     - 2016-07-27
+     - 2019-04-03
    * - `EBWin <http://www31.ocn.ne.jp/~h_ishida/EBPocket.html>`_
      - 4.5.5 / 3.06 Unicode
      - EPWING などの辞書データから辞書引きできるソフト。
@@ -994,11 +994,11 @@ kobo
        ``HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run`` に追加される ``"C:\Program Files\Java\jre6\bin\jusched.exe"`` を削除。
      - 2019-01-16
    * - `Freeplane <http://sourceforge.net/apps/mantisbt/freeplane/my_view_page.php>`_
-     - 1.7.8 pre02
+     - 1.7.8 pre04
      - マインドマップを書くためのツール。
        FreeMind の改造版。
        いくつか嬉しい機能がある。
-     - 2019-03-30
+     - 2019-04-15
    * - `conim <http://site-clue.statice.jp/>`_
      - 3.00
      - 16 進表記の色を作成したり、画面から取ってきたり。
@@ -1014,7 +1014,7 @@ kobo
    * - `Process Explorer <http://technet.microsoft.com/ja-jp/sysinternals/bb896653(en-us).aspx>`_
      - 16.21
      - プロセスの詳細な情報を表示することができるタスクマネージャ。
-       メニューの Find -&gt; Find Handle or DLL でプロセスが掴んでいる DLL を探すようなことができる。
+       メニューの Find → Find Handle or DLL でプロセスが掴んでいる DLL を探すようなことができる。
      - 2017-05-17
    * - `Process Hacker <http://processhacker.sourceforge.net>`_
      - 2.33
@@ -1047,11 +1047,6 @@ kobo
        旧バージョンをアンインストールしてからインストールしないとエラーになることが多い。
        Docker Toolbox と一緒にインストール。
      - 2018-05-20
-   * - `CrystalDiskInfo <http://crystalmark.info/>`_
-     - 7.7.0
-     - | 操作感の引っ掛かりをなくす。
-       | 機能 - 上級者向け機能 - AAM/APM 設定 から対象のディスクを選択してパフォーマンス最高で有効にする。
-     - 2018-09-24
    * - `CrystalDiskMark <http://crystalmark.info/>`_
      - 3.0.1
      - HDD の S.M.A.R.T の情報などを表示してくれる。
@@ -1092,7 +1087,7 @@ kobo
      - スタートアップの実行に使用。
      - 2011-03-07
    * - `AutoHotkey <http://www.autohotkey.net/~Lexikos/AutoHotkey_L/>`_
-     - 1.1.30.1 x64
+     - 1.1.30.2 x64
      - キーの入れ替えに使用。
 
        管理者権限で実行されるプログラム（主に Everything）でも使えるように、AutoHotkey も管理者権限で実行する。
@@ -1115,15 +1110,11 @@ kobo
        | 1.1.21 系に変更してみた。大丈夫かな？ [2015-04-23]
        | 1.1.27.00 はやたらと落ちるので 1.1.26.01 に戻した。Windows Update が原因の可能性もあるので様子見。[2017-12-27]
        | 1.1.27.02 でマシになったみたい [2018-01-07]
-     - 2019-01-05
+     - 2019-04-03
    * - `Stickies <http://www.zhornsoftware.co.uk/stickies/>`_
      - 7.1e
      - 思いついたことを書き込んで画面に貼り付ける付箋。
      - 2012-11-16
-   * - `Google 日本語入力 <https://www.google.co.jp/ime/>`_
-     - stable
-     - 日本語入力。
-     - 2013-12-14
    * - `EasyMCC <http://bluesky23.yu-nagi.com/EasyMCChtml>`_
      - 132
      - モニタのハードボタンで行う設定をソフトで変更できる。
@@ -1149,6 +1140,10 @@ kobo
      - 17.03.1-ce
      - Docker
      - 2017-04-08
+   * - `RelaxTools Addin <https://software.opensquare.net/relaxtools/>`_
+     - 4.25.2
+     - Excel の操作を便利にしてくれるアドイン
+     - 2017-04-20
 
 削除済み
 --------
@@ -2144,3 +2139,15 @@ kobo
 
        の結果が 2.2 秒くらい。
      - 2007-05-31
+   * - `Google 日本語入力 <https://www.google.co.jp/ime/>`_
+     - stable
+     - 日本語入力。
+       MS-IME がそれなりに使える気がするので新PCでは使っていない。
+     - 2013-12-14
+   * - `CrystalDiskInfo <http://crystalmark.info/>`_
+     - 7.7.0
+     - | 操作感の引っ掛かりをなくす。
+       | 機能 - 上級者向け機能 - AAM/APM 設定 から対象のディスクを選択してパフォーマンス最高で有効にする。
+       | SDD のみの新 PC では必要なくなったっぽい。
+     - 2018-09-24
+
