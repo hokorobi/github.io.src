@@ -19,3 +19,5 @@ MS-IME の設定
 * C-p: ↑からコピー
 * C-l: ↓からコピー
 
+`設定レジストリファイル <_static/imejp-stylelist.reg>`_ 
+
