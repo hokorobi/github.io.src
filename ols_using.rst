@@ -28,19 +28,21 @@ Update はソフトウェアがバージョンアップされた日ではなく�
        | Paper Plane xUI でディレクトリの移動に使っている。
      - 2008-03-18
    * - `Paper Plane xUI <http://toro.d.dooo.jp/slppx.html>`_
-     - 1.66+2 x64
+     - 1.69+5 x64
      - DF 並に起動が速いけれど、カスタマイズが大変 (楽しい？) なファイラ。
-     - 2019-04-15
+     - 2019-11-11
    * - `Paper Plane xUI Window Module <http://toro.d.dooo.jp/slppx.html>`_
      - R7
      - 指定したウィンドウの最大化を交互におこなうコマンドと、指定したウィンドウ位置・大きさを別のウィンドウに合わせるコマンドが入った PPx Module。
      - 2016-09-03
    * - `Paper Plane xUI Script Module <http://toro.d.dooo.jp/slppx.html>`_
-     - R17
+     - R17+2
      - スクリプトを使えるようにするモジュール。
-     - 2019-01-26
+       R17+1: ログが出力されるのでやめ
+       `R17+2: リネーム用スクリプトで ESC を押すと環境依存文字が入力されるのでやめ`:strike: 本体側が原因 1.69+3 で修正
+     - 2019-11-04
    * - `Paper Plane xUI Text Module <http://toro.d.dooo.jp/slppx.html>`_
-     - R3
+     - R4
      - テキスト関係のコマンドを使えるようにするモジュール。
      - 2018-08-15
    * - `bregonig.dll <http://homepage3.nifty.com/k-takata/>`_
@@ -52,14 +54,14 @@ Update はソフトウェアがバージョンアップされた日ではなく�
      - Paper Plane xUI で Migemo を使うため。
      - 2011-12-24
    * - `FastCopy <http://www.ipmsg.org/tools/fastcopy.html>`_
-     - 3.70 x64
+     - 3.85 x64
      - | 大量ファイルの削除時に使用。
        | 削除確認は PPx 側でダイアログを出して、実行時には /no_confirm_del を指定。
-     - 2019-04-20
+     - 2019-10-31
    * - `FreeFileSync <http://freefilesync.sourceforge.net/>`_
-     - 10.10
+     - 10.15
      - ファイルのバックアップ。
-     - 2019-03-17
+     - 2019-09-08
    * - `FastHash <http://hp.vector.co.jp/authors/VA033110/>`_
      - 0.39β
      - | ファイルが同じものなのかどうか確認。
@@ -196,19 +198,24 @@ Update はソフトウェアがバージョンアップされた日ではなく�
      - Version
      - Comment
      - Update
+   * - `Fork <https://git-fork.com/>`_
+     - 1.41.1
+     - Git の GUI クライアント
+       hank の一部を選択すると、そこだけ stage できるのがとても便利。
+     - 2019-11-02
    * - `TortoiseHg <https://bitbucket.org/tortoisehg/thg/downloads>`_
-     - 4.9.1 x64
+     - 5.0.2 x64
      - GUI の Workbench を使う。
        Vim で python27.dll が認識されて gista が動かなくなるのでインストール後にパスから外している。
-     - 2019-04-15
+     - 2019-07-23
    * - `SourceTree <https://www.sourcetreeapp.com/>`_
-     - 3.1.2
+     - 3.1.3
      - Git の GUI クライアント
-     - 2019-04-01
+     - 2019-05-26
    * - `lazygit <https://github.com/jesseduffield/lazygit>`_
-     - 0.7.2
+     - 0.8.1
      - Git の TUI クライアント
-     - 2019-03-16
+     - 2019-06-27
 
 
 システム関係
@@ -239,10 +246,10 @@ Update はソフトウェアがバージョンアップされた日ではなく�
        StartupRun の後継ソフト。
      - 2013-06-26
    * - `Autoruns <http://technet.microsoft.com/ja-jp/sysinternals/bb963902(en-us).aspx>`_
-     - 13.94
+     - 13.95
      - スタートアップで実行されるプログラムやライブラリを減らしたり増やしたり。
        通常は StartupRun を使ってゴミ掃除にこっちを使う。
-     - 2019-02-21
+     - 2019-06-15
    * - `ConEmu <http://code.google.com/p/conemu-maximus5/>`_
      - 190303
      - シェルラッパー
@@ -258,17 +265,17 @@ Update はソフトウェアがバージョンアップされた日ではなく�
      - 環境変数を書き換えるソフト。
      - 2018-07-08
    * - `JoyToKey <http://www.vector.co.jp/soft/win95/util/se101657.html>`_
-     - 6.1.1
+     - 6.3
      - ジョイパッドの操作をキーボードやマウスに割り当てる。
        動画を離れてみながら、操作するときに使っている。
        駄目人間化。
-     - 2018-09-25
+     - 2019-07-24
    * - `nyagos <https://github.com/zetamatta/nyagos/>`_
-     - 4.4.2_2 64bit
+     - 4.4.5_2 64bit
      - コマンドラインシェル。UNC が扱えるので、Mercurial と一緒に使えないか試してみる。
        最近は PowerShell を使い始めた。 [2016-03-12]
        nyagos に戻ってきた。 [2016-09-08]
-     - 2019-04-15
+     - 2019-10-26
    * - `TaskSchedulerView <http://www.nirsoft.net/utils/task_scheduler_view.html>`_
      - 1.30
      - タスクスケジューラの一覧表示
@@ -278,16 +285,10 @@ Update はソフトウェアがバージョンアップされた日ではなく�
      - 1.66
      - サービスの一覧。設定変更の差分確認をする際に使用する。
      - 2016-05-01
-
-
-.. list-table:: レジストリ
-   :header-rows: 1
-   :widths: 15 10 60 10
-
-   * - Name
-     - Version
-     - Comment
-     - Update
+   * - `PowerToys <https://github.com/microsoft/PowerToys>`_
+     - 0.11.0
+     - FancyZones: 画面分割の利用
+     - 2019-09-07
    * - `RunKan <http://www2.osk.3web.ne.jp/~sm/besrk/besrk.html>`_
      - 1.21
      - コマンドプロンプトなどを管理者権限起動。
@@ -296,6 +297,18 @@ Update はソフトウェアがバージョンアップされた日ではなく�
      - 2.70
      - IME の状態を表示
      - 2018-08-05
+   * - `sudo <https://github.com/mattn/sudo>`_
+     - 0.0.1
+     - sudo
+     - 2019-05-23
+   * - `フォントインストーラー SAKURA <http://tam.vni.jp/soft/sakura/sakura.html>`_
+     - 2.77
+     - フォントの情報を表示。Fontlink を設定するため名前を調べた。
+     - 2019-06-08
+   * - `GeekUninstaller <https://www.geekuninstaller.com/>`_
+     - 1.4.7
+     - AppStore アプリのアンインストール
+     - 2019-09-21
 
 ネットワーク関係
 ~~~~~~~~~~~~~~~~
@@ -309,16 +322,15 @@ Update はソフトウェアがバージョンアップされた日ではなく�
      - Comment
      - Update
    * - `Vivaldi <https://vivaldi.com/?lang=ja_JP>`_
-     - 2.4.1448.38 x64
+     - 2.9.1705.41 x64
      - Chromium 派生 Web ブラウザ。
        Cyberfox から移行してきた。
-       通知のデフォルトブロックは chrome://settings/content/notifications で設定 [2019-01-18]
-     - 2019-04-12
+     - 2019-11-08
    * - `Firefox <http://mozilla.jp/firefox/>`_
-     - 66.0.3
+     - 70.0
      - Web ブラウザ。
        サブブラウザを Firefox に戻した。 [2018-01-21]
-     - 2019-04-11
+     - 2019-10-31
    * - `WWWC <http://www.nakka.com/>`_
      - 1.1.2
      - Web ページの更新チェック。
@@ -329,12 +341,10 @@ Update はソフトウェアがバージョンアップされた日ではなく�
        実行すると、問答無用で ``C:\Program Files\uTorrent`` へインストールされていたが、インストール先は選べるようになった。(1.8)
      - 2011-05-06
    * - `FileZilla <http://filezilla.sourceforge.net/>`_
-     - 3.41.2 x64
+     - 3.44.2 x64
      - FTP クライアント。
        多重接続できるのが嬉しい。
-       まだ実用には FileZilla 2 が良いと思う。
-       FileZilla 3 を使うようになってきた。
-     - 2019-03-21
+     - 2019-06-29
    * - `twicli <http://www.geocities.co.jp/twicli/>`_
      - 随時
      - JS 製クライアント。
@@ -359,6 +369,10 @@ Update はソフトウェアがバージョンアップされた日ではなく�
      - 4.00
      - 5ch の閲覧
      - 2017-11-09
+   * - `Slack <https://slack.com/intl/ja-jp/release-notes/windows>`_
+     - 4.00
+     - Slack
+     - 2019-07-12
 
 テキスト関係
 ~~~~~~~~~~~~
@@ -371,23 +385,6 @@ Update はソフトウェアがバージョンアップされた日ではなく�
      - Version
      - Comment
      - Update
-   * - `Vim <https://github.com/vim/vim-win32-installer/releases>`_
-     - 8.1.1193
-     - | デフォルトエディタ。xyzzy から移行。
-       | 7.3.1203はうまく動かなかった。Lingrが動かなかったのと、やっぱり色々と問題がありそう。
-       | `8.0.0596-20170502 は gvim -c GrepWrap で <t_<fd>`> が入力されたので前のバージョンに戻した。 [2017-05-21]`:strike:
-       | `gvim -c GrepWrap で <t_<fd>a> が入力されるが気にせず使っている。 [2017-11-30]`:strike: develop 8.0.1376 で改善されていた。 [2017-12-11]
-     - 2019-04-21
-   * - `cmigemo <https://www.kaoriya.net/software/cmigemo/>`_
-     - 2011-02-27
-     - Vim の easymotion で使用する。
-       Kaoriya 版をやめたので migemo.dll は使えなくなったため。
-     - 2018-09-29
-   * - `lua.dll <http://luabinaries.sourceforge.net/download.html>`_
-     - 5.3.4 Win64
-     - Vim の +lua を有効にする。
-       パスの通った場所に lua53.dll を格納。
-     - 2018-08-19
    * - `CLISM excellent <http://toro.d.dooo.jp/slwin4.html>`_
      - 2.1
      - クリップボードの履歴とったり定型文を挿入したり。
@@ -397,24 +394,29 @@ Update はソフトウェアがバージョンアップされた日ではなく�
      - PDFリーダー。読んだ位置を記憶してくれる。
      - 2016-08-19
    * - `xdoc2txt <http://www31.ocn.ne.jp/~h_ishida/xdoc2txt.html>`_
-     - 2.18 x64
+     - 2.19.1 x64
      - 各種バイナリ文書からテキストを抽出する。
        WinMerge, Vim で使用中。
-     - 2019-04-08
+     - 2019-06-29
    * - `XpdfReadre <http://www.xpdfreader.com/>`_
      - 4.0.1
      - PDF からテキストを抽出する pdftotext を使用。
        Vim で使えるかと思ったけど工夫がいりそう。
      - 2019-03-04
+   * - `pdfcpu <https://github.com/pdfcpu/pdfcpu>`_
+     - 0.2.5 + dc388b8
+     - PDF の編集をするコマンドラインツール。
+     - 2019-11-10
    * - `WinMerge <http://www.geocities.co.jp/SiliconValley-SanJose/8165/winmerge.html>`_
-     - 2.16.0+-jp-13 x64
+     - 2.16.4+-jp-7 x64
      - | ファイルの比較。
        | 差分内容によって綺麗に色分けしてくれる。
        | こちらは文字コードの自動判別もしてくれる。
        | インストーラを使った場合は、 ``**regsvr32 /u WinMerge\ShellExtension.dll**`` とやったりする。
        | 2.3.3.1-jp-1 からは、設定の「複数のインスタンスを起動しない」を選択することができるようになった。
        | MergePlugins から amb_xdocdiffPlugin.dll 以外を移動。プラグインが自動展開になっているので、色々と入っていると自動で動いてしまう。たまにエラーメッセージが出たりしていた。
-     - 2019-03-29
+       | MergePlugins の中身は移動せず xdocdiffPlugin.dll を追加する運用にしてみる。 [2019-11-02]
+     - 2019-11-02
    * - `xdocdiff WinMerge Plugin 64bit <http://crus.mydns.jp/xdocdiffPlugin64/>`_
      - 1.0.6 64bit
      - Winmerge で Word, Excel, PowerPoint, pdf その他の比較が行えるようにするプラグイン。
@@ -432,25 +434,52 @@ Update はソフトウェアがバージョンアップされた日ではなく�
      - 2018-09-22
    * - `Platinum Searcher <https://github.com/monochromegane/the_platinum_searcher>`_
      - 2.1.6
-     - 文字コード混在のファイルを grep できるソフト。
+     - 文字コードが色々なファイルをまとめて grep できるソフト。
        jvgrep よりも高速。
      - 2018-07-14
    * - `ripgrep <https://github.com/BurntSushi/ripgrep>`_
-     - 11.0.0
-     - | 文字コード混在のファイルを grep できるソフト。
-       | Platinum Searcher よりも高速らしい。
+     - 11.0.2 x64 msvc
+     - | Platinum Searcher よりも高速らしい。
        | 出力の文字コードがファイルの文字コードになるよう。指定できないものだろうか？ [2018-08-04]
-     - 2019-04-16
+       | 文字コードが色々なファイルをまとめて grep はできないので pt に戻った。 [2019-09-11]
+     - 2019-08-09
    * - `Pandoc <http://johnmacfarlane.net/pandoc/>`_
-     - 2.7
+     - 2.7.3
      - | 文書の変換
        | Sphinx の singlehtml から docx への変換（仮） [2018-06-09]
-     - 2019-03-08
+     - 2019-07-10
    * - `Evernote <https://evernote.com/intl/jp/download>`_
      - 6.17.6.8292
      - Web だけで使っていたけれど一括編集、一括移動などが使えないようなのでアプリをインストール
      - 2019-01-27
 
+.. list-table:: Vim 関係
+   :header-rows: 1
+   :widths: 15 10 60 10
+
+   * - Name
+     - Version
+     - Comment
+     - Update
+   * - `Vim <https://github.com/vim/vim-win32-installer/releases>`_
+     - 8.1.2291
+     - | デフォルトエディタ。xyzzy から移行。
+       | 7.3.1203はうまく動かなかった。Lingrが動かなかったのと、やっぱり色々と問題がありそう。
+       | `8.0.0596-20170502 は gvim -c GrepWrap で <t_<fd>`> が入力されたので前のバージョンに戻した。 [2017-05-21]`:strike:
+       | `gvim -c GrepWrap で <t_<fd>a> が入力されるが気にせず使っている。 [2017-11-30]`:strike: develop 8.0.1376 で改善されていた。 [2017-12-11]
+       | 8.1.1234 から system() の結果がテンポラリファイルから取れない場合があるみたい。dein の自動リキャッシュ（？）時に発生 [2019-05-01]
+       | この件 8.1.1350 でも解決しなかったので、自動リキャッシュが発生しないように dein に手を入れた。 [2019-05-19]
+     - 2019-11-16
+   * - `cmigemo <https://www.kaoriya.net/software/cmigemo/>`_
+     - 2011-02-27
+     - Vim の easymotion で使用する。
+       Kaoriya 版をやめたので migemo.dll は使えなくなったため。
+     - 2018-09-29
+   * - `lua.dll <http://luabinaries.sourceforge.net/download.html>`_
+     - 5.3.4 Win64
+     - Vim の +lua を有効にする。
+       パスの通った場所に lua53.dll を格納。
+     - 2018-08-19
 
 .. list-table:: フォント
    :header-rows: 1
@@ -461,9 +490,9 @@ Update はソフトウェアがバージョンアップされた日ではなく�
      - Comment
      - Update
    * - `Cica <https://github.com/miiton/Cica>`_
-     - 4.1.1
+     - 5.0.1 with emoji
      - Conemu, Paper Plane xUI, Vim で使用。
-     - 2019-02-24
+     - 2019-06-27
    * - `MyricaM <https://myrica.estable.jp/>`_
      - 2.012.20180119
      - Conemu, Paper Plane xUI で使用。
@@ -524,10 +553,10 @@ Update はソフトウェアがバージョンアップされた日ではなく�
      - Comment
      - Update
    * - `foobar2000 <http://foobar2000.hydrogenaudio.org/>`_
-     - 1.4.3
+     - 1.4.8
      - BGM として TAK, Ogg Vorbis, MP3, WMA などの再生をさせている。
        プレイリストが削除されることがある。最後の発生は 0.9.5.5。
-     - 2019-03-16
+     - 2019-09-22
    * - `foo_input_tak <http://www.foobar2000.org/components/view/foo_input_tak>`_
      - 0.4.8
      - TAK の再生。
@@ -618,7 +647,7 @@ Update はソフトウェアがバージョンアップされた日ではなく�
 
          (dot.exe:3928): Pango-WARNING **: `/target/lib/pango/1.6.0/modules/pango-basic-win32.dll': 指定されたモジュールが見つかりません。
 
-     - 2014-05-28
+     - 2019-08-05
    * - `AzPainter <http://hp.vector.co.jp/authors/VA033749/>`_
      - 2.09
      - シンプルで使いやすいような気がするペイントソフト。
@@ -706,9 +735,9 @@ Update はソフトウェアがバージョンアップされた日ではなく�
        最近は MassiGra しか使っていない。
      - 2017-10-28
    * - `PlantUML <http://ja.plantuml.com/>`_
-     - 1.2019.2
+     - 1.2019.11
      - シーケンス図とかを描く。
-     - 2019-03-08
+     - 2019-09-23
 
 
 .. list-table:: Susie Plug-in
@@ -759,19 +788,19 @@ Update はソフトウェアがバージョンアップされた日ではなく�
      - デスクトップキャプチャ
      - 2014-07-30
    * - `LosslessCut <https://github.com/mifi/lossless-cut>`_
-     - 2.1.0
+     - 2.4.0
      - Youtube の動画の不要部分を無劣化で取り除く。
        シンプルなので Avidemux から移行。
-     - 2019-02-02
-   * - `ffmpeg <https://github.com/FFmpeg/FFmpeg>`_
-     - LossLessCut 付属の ffmpeg
+     - 2019-08-20
+   * - `ffmpeg <https://ffmpeg.zeranoe.com/builds/>`_
+     - 4.2
      - 音声の抜き出しとか。
        `バイナリ配布先1 <http://oss.netfarm.it/mplayer-win32.php>`_
 
        - 動画から音声の抜き出し: ``ffmpeg -i input.mkv -acodec copy output.???`` 音声の拡張子は ``ffmpeg -i input.mkv`` の結果から判断する。
        - 音声の修正？: ``ffmpeg -i input.ogg -acodec copy output.ogg``
 
-     - 2018-10-28
+     - 2019-08-09
 
 
 .. list-table:: 動画再生
@@ -794,7 +823,7 @@ Update はソフトウェアがバージョンアップされた日ではなく�
        Home Cinema x64 1.5.3.3704 henry は再生が遅くなったりしたので使うのやめ。
      - 2016-05-07 / 2012-12-17
    * - `mpv <https://sourceforge.net/projects/mpv-player-windows/files/>`_
-     - 0.29 直前コミットのバイナリ
+     - x86_64-20190820-git-80552ab
      - | 動画再生。mplayer から切り替え。
        | Windows7 で関連付け。設定したつもりでも記憶してくれないので。
 
@@ -829,12 +858,13 @@ Update はソフトウェアがバージョンアップされた日ではなく�
        | Windows10 は普通に関連付けできる。
        | 2016-11-20 は WMV の再生がおかしかった。映像が出ない。 [2016-12-04]
        | バイナリ取得サイトを変更 http://mpv.srsfckn.biz/ -> https://sourceforge.net/projects/mpv-player-windows/files/ [2018-07-24]
-     - 2018-07-24
+     - 2019-08-25
    * - `youtube-dl <https://rg3.github.io/youtube-dl/>`_
-     - 2019.03.09
+     - 2019.08.02
      - youtube を mpv で再生。
        youtube の動画を DL。
-     - 2019-03-16
+       Microsoft Visual C++ 2010 Redistributable Package (x86) （not x64）が必要。
+     - 2019-08-10
    * - `MPC-BE <https://sourceforge.net/projects/mpcbe/>`_
      - 1.5.1 x64
      - MPCHC の改訂版。
@@ -868,21 +898,21 @@ Update はソフトウェアがバージョンアップされた日ではなく�
      - Comment
      - Update
    * - `Python <http://www.python.org/>`_
-     - 64 bit 3.7.3
+     - 64 bit 3.7.5
      - | メインの LL。
        | `Vim プラグインの Gista は 2.7 が入っていないと保存時にエラーになる。なぜだ？ [2017-05-14]`:strike:
        | TortoiseHg の python27.dll が Python 2.7 として認識されていた。TortoiseHg のパスをはずした。 [2018-02-03]
        | neovim が pynvim になって Windows の 3.7 でも使えるようになったので 3.6 は削除。 [2019-02-23]
        | 会社の PC が 64 bit になったので 32 bit は削除。 [2019-04-21]
-     - 2019-03-28
+     - 2019-10-20
    * - `go <http://golang.org/>`_
-     - 1.12.4 64bit
+     - 1.13.4 64bit
      - go
-     - 2019-04-12
+     - 2019-11-02
    * - `Node.js <https://nodejs.org/ja/>`_
-     - 6.10.3 LTS
+     - 10.15.3 LTS
      - textlint や plantuml-syntax-test で使用。
-     - 2017-05-27
+     - 2019-04-27
    * - `universal ctags <https://github.com/universal-ctags/ctags>`_
      - 2017-10-20/8465ce77
      - tags ファイルを作成して Vim で使用
@@ -901,12 +931,12 @@ Update はソフトウェアがバージョンアップされた日ではなく�
      - Comment
      - Update
    * - `PDIC/Unicode <http://homepage3.nifty.com/TaN/>`_
-     - 5.10.64
+     - 5.10.69
      - `英辞郎2 <http://www.amazon.co.jp/dp/4757408382/>`_ を使って英語辞書として使っている。
        PDIC/Unicode の発音記号フォントは、 `Doulos SIL Font Home <http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&amp;item_id=DoulosSILfont>`_ を使う。
-     - 2019-04-03
+     - 2019-11-02
    * - `EBWin <http://www31.ocn.ne.jp/~h_ishida/EBPocket.html>`_
-     - 4.5.5 / 3.06 Unicode
+     - 4.7.3 64bit / 3.06 Unicode
      - EPWING などの辞書データから辞書引きできるソフト。
        今は広辞苑のために使っている。
        ebzip 形式の圧縮したデータも使える。
@@ -922,7 +952,7 @@ Update はソフトウェアがバージョンアップされた日ではなく�
          -L C:\EBWin
 
        C# で書かれた EBWin 4.0 が登場。
-     - 2019-01-05 / 2012-05-18
+     - 2019-11-02 / 2012-05-18
    * - `Lingoes <http://www.lingoes.net/en/>`_
      - 2.9.1
      - ポップアップ辞書。
@@ -975,6 +1005,11 @@ kobo
      - 2.08
      - ソフトの起動や操作。
      -
+   * - `KeePassXC <https://keepassxc.org/>`_
+     - 2.5.0
+     - オープンソースでクロスプラットフォームのパスワード管理ソフト。
+       KeePass のバージョン 2 への移行をしていなかったけど、こちらにしてみた。
+     - 2019-10-27
    * - `KeePass <http://keepass.sourceforge.net/>`_
      - 1.37
      - オープンソースのパスワード管理ソフト。
@@ -988,17 +1023,17 @@ kobo
        たまにグラフ表示をして生活を振り返ってみる。
      - 2017-12-13
    * - `JRE <http://www.oracle.com/technetwork/java/javase/downloads/index.html>`_
-     - 1.8.0.201 32bit, 64bit
+     - 1.8.0.221 32bit, 64bit
      - Java のランタイム。
        インストール後に、コントロールパネルから Java を開いて、「アップデート」-「アップデートを自動的にチェック」のチェックを外す。
        ``HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run`` に追加される ``"C:\Program Files\Java\jre6\bin\jusched.exe"`` を削除。
-     - 2019-01-16
+     - 2019-07-20
    * - `Freeplane <http://sourceforge.net/apps/mantisbt/freeplane/my_view_page.php>`_
-     - 1.7.8 pre04
+     - 1.7.10
      - マインドマップを書くためのツール。
        FreeMind の改造版。
        いくつか嬉しい機能がある。
-     - 2019-04-15
+     - 2019-10-26
    * - `conim <http://site-clue.statice.jp/>`_
      - 3.00
      - 16 進表記の色を作成したり、画面から取ってきたり。
@@ -1012,15 +1047,10 @@ kobo
      - ファイルシステム、レジストリ、プロセス（スレッド）のモニタリングソフト
      - 2018-02-18
    * - `Process Explorer <http://technet.microsoft.com/ja-jp/sysinternals/bb896653(en-us).aspx>`_
-     - 16.21
+     - 16.30
      - プロセスの詳細な情報を表示することができるタスクマネージャ。
        メニューの Find → Find Handle or DLL でプロセスが掴んでいる DLL を探すようなことができる。
-     - 2017-05-17
-   * - `Process Hacker <http://processhacker.sourceforge.net>`_
-     - 2.33
-     - プロセスの詳細な情報を表示することができるタスクマネージャ。
-       Process Explorer に対しては、プロセスが使用中のファイルを探せる機能があるので試している。
-     - 2013-12-29
+     - 2019-09-07
    * - `LibreOffice <http://www.libreoffice.org/>`_
      - 6.2.2 64bit
      - オープンソースのオフィススイート。
@@ -1087,7 +1117,7 @@ kobo
      - スタートアップの実行に使用。
      - 2011-03-07
    * - `AutoHotkey <http://www.autohotkey.net/~Lexikos/AutoHotkey_L/>`_
-     - 1.1.30.2 x64
+     - 1.1.31.0 x64
      - キーの入れ替えに使用。
 
        管理者権限で実行されるプログラム（主に Everything）でも使えるように、AutoHotkey も管理者権限で実行する。
@@ -1110,7 +1140,7 @@ kobo
        | 1.1.21 系に変更してみた。大丈夫かな？ [2015-04-23]
        | 1.1.27.00 はやたらと落ちるので 1.1.26.01 に戻した。Windows Update が原因の可能性もあるので様子見。[2017-12-27]
        | 1.1.27.02 でマシになったみたい [2018-01-07]
-     - 2019-04-03
+     - 2019-10-22
    * - `Stickies <http://www.zhornsoftware.co.uk/stickies/>`_
      - 7.1e
      - 思いついたことを書き込んで画面に貼り付ける付箋。
@@ -1150,31 +1180,35 @@ kobo
 
 .. list-table:: 未分類
    :header-rows: 1
-   :widths: 15 10 60 10
+   :widths: 15 10 30 30 10
 
    * - Name
      - Version
      - Comment
+     - Delete reason
      - Update
    * - `PyQt <http://www.riverbankcomputing.co.uk/>`_
      - 5.0.1
      - Python で GUI
-       WxPython が Python3 で使えるようになったので Qt はやめ。
+     - WxPython が Python3 で使えるようになったので Qt はやめ。
      - 2013-08-31
    * - `XnView <http://www.xnview.com/en/index.html>`_
      - 2.12
      - 多機能なグラフィックビューア。
        nConvert で PDF を画像にしてクリップボードへ送って、それを PPv から参照。
+     - PDF のプレビューはそんなにいらない。
      - 2013-11-29
    * - `GIMP <http://www.gimp.org/index.html>`_
      - 2.6.11
      - GIMP is the GNU image manipulation program.
        Photoshop の操作感に似せた `GIMPshop <http://www.gimpshop.com/>`_ もある。
        `Windows バイナリ (sourceforge.net) <https://sourceforge.net/projects/gimp-win/>`_ , `gimp-win <http://gimp-win.sourceforge.net/>`_ 。
+     - 使いこなせなかった。
      - 2010-10-09
    * - `Inkscape <http://www.inkscape.org/>`_
      - 0.48.4-1
      - SVG エディタ。
+     - 使いこなせなかった。
      - 2012-12-20
    * - `ロック音MT <http://hp.vector.co.jp/authors/VA014492/>`_
      - 1.15
@@ -1200,10 +1234,12 @@ kobo
          echo USAGE: %0 files
          :EOF
 
+     - ラジオを録音することがなくなった
      - 2010-10-26
    * - `WAVEFLT2 <http://hp.vector.co.jp/authors/VA014492/>`_
      - 1.16
      - ラジオドラマのモノラル化、24 bit 化、DC オフセット補正、50 Hz ~ 15 kHz のバンドパスフィルタをかけるのに使用している。
+     - ラジオを録音することがなくなった
      - 2007-11-16
    * - `r8brain <http://www.voxengo.com/product/r8brain/>`_
      - 1.9
@@ -1225,42 +1261,46 @@ kobo
          encode1:
           (cmd (list) (arc_24b32k.wav) 32000 32000 24 4)
 
+     - ラジオを録音することがなくなった
      - 2010-10-26
    * - `WaveGain <http://www.rarewares.org/others.html>`_
      - 1.2.8
      - wave ファイルのリプレイゲインを計算。
        `DC Offset なんかも検出してくれるので、SoundEngine で DC 成分調整を忘れていることがわかったりする。`:strike: 今は mono_resample.bat を使うようになったので DC Offset は気にしていない。
        1.2.7 も出たけれど、自分には必要のない機能追加みたいな。
+     - ラジオを録音することがなくなった
      - 2009-04-26
    * - `STEP <http://www22.atpages.jp/~haseta2003/cgi-bin/index.cgi>`_
      - 1.03b7
      - MP3, Ogg Vorbis のタグ編集。
        SuperTagEditor 改造版からファイルタイプ特有の機能をプラグイン化したモノ。
        `STEP_M <http://mimumimu.net/software/#STEP_M>`_
+     - 最近は foobaro2000 のタグ編集で十分
      - 2010-09-26
    * - `oggdropXPd <http://www.rarewares.org/ogg.html>`_
      - 1.9.0 aoTuV b5.5 P4
      - ファイルをドロップすることで Ogg Vorbis へ簡単エンコード。
        ラジオドラマの wave を ogg へ変換するために使用している。
-       venc へ移行。
+     - venc へ移行。
      - 2008-04-22
    * - `oggenc2 <http://www.rarewares.org/ogg-oggenc.php>`_
      - Rarewares 2.87 using aoTuVb6.03 (Lancer Builds) SSE3 x64
      - Ogg Vorbis へのエンコード。
        ファイル名を oggenc.exe に変更して foobar2000 の Convert で使用。
-       venc へ移行。
        2013-06-16 Lancer を見付けたので戻ってきた。
+     - venc へ移行。
      - 2013-06-16
    * - `venc <http://www.geocities.jp/aoyoume/aotuv/>`_
      - aoTuV b6.03
      - Ogg Vorbis のエンコード。
        oggenc.exe とは別物。
-       2013-06-16 oggenc へ。
+     - 2013-06-16 oggenc へ。
      - 2011-04-27
    * - `OggVorbis Packet Tool's <http://hp.vector.co.jp/authors/VA027311/>`_
      - 06/11/18-R5
      - OggVorbis を劣化無しで編集するソフト集。
        ラジオドラマのサンプリングレートを変更して、ゲインを調節して、エンコードしたけれど、頭とお尻を切り忘れて、かつソースも削除してしまったので使った。
+     - 最近、OggVorbis の編集はしない
      - 2007-06-27
    * - `Nero Digital Audio Reference MPEG-4 & 3GPP Audio Encoder <http://www.nero.com/ena/downloads-nerodigital-nero-aac-codec.php>`_ ,
        `他の DL サイト <http://ftp6.nero.com/tools/>`_
@@ -1271,6 +1311,7 @@ kobo
 
          neroAacEnc.exe -q 0.4 -if input.wav -of output.m4a
 
+     - AAC を使わない。
      - 2008-09-24
    * - `PMPlib (EasyPMP) <http://pmplib.sourceforge.net/>`_
      - 0.12 alpha
@@ -1281,34 +1322,40 @@ kobo
        .. code-block:: none
 
         D:\OLS\Music\easypmp\easypmp_cui.exe -c H:\
-
+     - Ogg を使わない
      - 2006-08-01
 
    * - Mp3Tag
      - 2.50
      - 音楽ファイルのタグ打ち。ちょっとタグを見たいときに。
        `日本語化ファイル <http://www.nihongoka.com/jpatch_main/mp3tag/>`_
+     - foobar2000 で十分
      - 2012-03-14
    * - `UniteTTC <http://yozvox.web.infoseek.co.jp/>`_
      - 2008-06-08
      - 複数の TTF を TTC にまとめたり、TTC を複数の TTF にばらしたり。
+     - 使う機会がなくなった。
      - 2008-07-04
    * - `WinFontsView <http://www.nirsoft.net>`_
      - 1.05
      - 任意の文字列でフォントを表示する。
+     - 使う機会がなくなった。
      - 2009-08-23
    * - `Y.OzFont TTF JIS X 0213:2004 (YOzR04N) <http://yozvox.web.infoseek.co.jp/>`_
      - 12.14
      - smoopy で小説を読む際に使用。
+     - 使う機会がなくなった。
      - 2011-01-04
    * - `SH G30 <http://osakattf.hp.infoseek.co.jp/>`_
      - 不明
      - 可読性に優れたフォント。
        ライセンスは不明。
+     - 使う機会がなくなった。
      - 2010-10-26
    * - `Andale Mono <http://sourceforge.net/project/showfiles.php?group_id=34153&amp;package_id=56408>`_
      - 不明
      - 0 と O、I と l と 1 が判読しやすいフォント。
+     - 使う機会がなくなった。
      - 2010-10-26
    * - `P4Merge <http://www.perforce.com/perforce/downloads/index.html>`_
      - 2010.1.26.5509
@@ -1321,6 +1368,7 @@ kobo
          git config --global merge.tool p4merge
          git config --global mergetool.p4merge.cmd 'p4merge.exe \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"'
 
+     - WinMerge を使っている。
      - 2010-10-09
    * - `KDiff3 <http://kdiff3.sourceforge.net/>`_
      - 0.9.96a
@@ -1328,63 +1376,77 @@ kobo
        TortoiseHg 同梱の kdiff3 を使うようにした。
        レジストリ ``HKEY_CURRENT_USER\Software\KDiff3`` には存在しないパスが指定されているけれど、ちゃんと TortoiseHg 同梱の kdiff3 が起動するな。
        どうなっているんだろう？
+     - WinMerge を使っている。
      - 2012-11-19
    * - `ffphrase <http://www4.atwiki.jp/shouhmisc/>`_
      - 1.4
      - マクロを使える定型文をメニューから貼り付け
+     - 使う機会がなくなった。
      - 2013-03-09
    * - `PDFsam <http://www.pdfsam.org/>`_
      - 2.2.2
      - PDF の分割・結合
+     - 使う機会がなくなった。
      - 2012-12-08
    * - `TxtMiru <https://sites.google.com/site/gearsns/>`_
      - 2.0.3.3
      - 小説読むのに。文字のアウトライン補正が良いかも。
+     - 使う機会がなくなった。
      - 2012-06-12
    * - `smoopy <http://site-clue.statice.jp/>`_
      - 1.62
      - 小説読むのに。文字のアウトライン補正が良い。
        UPX 圧縮のせいで BitDefender Version: 7.11972 で Generic.Malware と誤認されるみたい。（UPX を元に戻したら大丈夫だった）
+     - 使う機会がなくなった。
      - 2007-03-21
    * - `ArisuViewer <http://www.vector.co.jp/soft/win95/util/se433856.html>`_
      - 1.2.0.0
      - 小説読むのに。
        最初の設定に戸惑った。
        悪くはないけれど smoopy とどちらがよいかな？　甲乙つけ難い。
+     - 使う機会がなくなった。
      - 2007-12-03
    * - `oedit <http://www.hi-ho.ne.jp/a_ogawa/oedit/>`_
      - 7.5.2.4
      - msysgit のコミットを UTF8 で入力するために指定。
+     - 使う機会がなくなった。
      - 2012-11-03
    * - `GetASFStream <http://tetora.orz.ne.jp/>`_
      - 2.3.0.0c
      - ストリーミングデータのダウンロード。
      - 2009-09-15
+     - 使う機会がなくなった。
    * - `htmllint <http://htmllint.itc.keio.ac.jp/htmllint/htmllint.html>`_
      - htmllint.pm 3.36
      - HTML の構文チェックに。
        xyzzy (2004-07-09) から実行。
+     - 使う機会がなくなった。
      - 2006-04-07
    * - `Privoxy <http://www.privoxy.org/>`_
      - 3.0.24
      - Web ページの広告を削除したり，ポップアップを抑止したり。
+     - 使う機会がなくなった。
      - 2016-02-27
    * - `MyDefrag <http://www.mydefrag.com/>`_
      - 4.3.1
      - JkDefrag の後継。
        スクリプトを記述できる。
+     - SSD になったので使わなくなった。
      - 2010-11-14
    * - `Ultimate defrag <http://www.disktrix.com/UDFree.htm>`_
      - 1.72
      - デフラグ。
+     - SSD になったので使わなくなった。
      - 2012-07-04
    * - `Fire File Copy <http://www.k3.dion.ne.jp/~kitt/pc/sw/ffc/>`_
      - 4.9.1 u
      - HDD をガリガリ言わせずにでっかいファイルをコピー。
+     - FastCopy を使う。といってもほどんと使わない。
      - 2009-08-01
    * - `Miranda-IM <http://www.miranda-im.org/>`_
      - 0.8.27 unicode
      - MSN メッセンジャー，Yahoo メッセンジャーなどとメッセージをやりとり。
+     - 使う機会がなくなった。
      - 2010-07-02
    * - `Atomic <http://addons.miranda-im.org/details.php?id=194>`_
      - 0.6.0.0
@@ -1394,14 +1456,17 @@ kobo
        ntp1.jst.mfeed.ad.jp (210.173.160.27)
        ntp2.jst.mfeed.ad.jp (210.173.160.57)
        ntp3.jst.mfeed.ad.jp (210.173.160.87)
+     - 使う機会がなくなった。
      - 2004-12-04
    * - `NewXstatusNotify YM (Unicode) <http://addons.miranda-im.org/details.php?id=4341>`_
      - 1.4.0.3
      - NewStatusNotify に機能追加したもの。
+     - 使う機会がなくなった。
      - 2010-10-27
    * - `NewEventNotify <http://addons.miranda-im.org/details.php?id=3637>`_
      - 0.2.2.3
      -
+     - 使う機会がなくなった。
      - 2009-07-02
    * - `YAPP <http://addons.miranda-im.org/details.php?id=2759>`_
      - 0.5.0.9
@@ -1409,49 +1474,59 @@ kobo
        アニメーションが格好良かったので換えてみた……でも、切ってしまった。
        高負荷時のポップアップ表示が PopUp よりもすんなりできている。
        0.5.0.4 の新しいバージョンでは、ポップアップが表示されないようになってしまったので、バージョンアップしなかった。
+     - 使う機会がなくなった。
      - 2010-12-13
    * - `Message Export mod (Unicode) <http://addons.miranda-im.org/details.php?id=3973>`_
      - 3.1.0.3
      - メッセージをデータベースからテキストファイルに保存。
+     - 使う機会がなくなった。
      - 2009-01-29
    * - `Miranda IM Database Tool <http://addons.miranda-im.org/details.php?id=73>`_
      -
      - データベースからいらない情報を削除したり，データベースのサイズを小さくしたり。
+     - 使う機会がなくなった。
      -
    * - `realreconnect <http://addons.miranda-im.org/details.php?id=1783>`_
      - 0.0.1.1
      - ネットワークの接続に失敗したときに再接続を試みる。
        サイズも小さいし、使っている DLL も少ないようだったので使ってみる。
        とりあえず問題はないみたい。
+     - 使う機会がなくなった。
      - 2005-12-27
    * - `Message Notify <http://addons.miranda-im.org/details.php?id=2415>`_
      - 0.3.0.2
      - メッセージが届いたときにポップアップを表示するプラグイン。
        メッセージウィンドウが最前面になっていないときにポップアップを表示するようにしている。
+     - 使う機会がなくなった。
      - 2007-07-18
    * - `Gmail Multiple Notifier (UNICODE) <http://addons.miranda-im.org/details.php?id=3677>`_
      - 0.4.0.10
      - Gmail の新着チェックをする。
        0.4.0.9 はステータスが Unknown にしかならなかった。0.4.0.10 で修正。
+     - 使う機会がなくなった。
      - 2008-12-22
    * - `History++ (2in1) <http://addons.miranda-im.org/details.php?id=2995>`_
      - 1.5.1.4
      - メッセージの履歴を便利に検索することができたりする
+     - 使う機会がなくなった。
      - 2010-02-27
    * - `History Sweeper+ Unicode <http://addons.miranda-im.org/details.php?id=4132>`_
      - 0.2.0.1
      - 履歴削除。
+     - 使う機会がなくなった。
      - 2009-08-31
    * - `Proxomitron <http://www.proxomitron.org/>`_
      - 4.5june+shift_jis誤爆回避日本語化パッチ+RWIN32768回避+バイパス赤アイコン+有難屋さんgoodjob!
      - Web ページの広告を削除したり，ポップアップを抑止したり。
        `Proxomitron-J <http://www.pluto.dti.ne.jp/~tengu/proxomitron/index.html>`_ ,
        `Proxomitorn 等に関する Wiki <http://abc.s65.xrea.com/prox/wiki/>`_
+     - 使う機会がなくなった。
      - 2004-12-12
    * - `OperaCacheView <http://www.nirsoft.net/utils/opera_cache_view.html>`_
      - 1.36
      - Opera のキャッシュに存在するファイルを一覧する。
        Web マンガを読んでいて、URL で検索して画像を一括で保存といったことに使った。
+     - 使う機会がなくなった。
      - 2010-03-06
    * - `MPlayer <http://www.mplayerhq.hu/>`_
      - corei7-r37653+g674cc26 (Gianluigi Tiesi)
@@ -1484,41 +1559,41 @@ kobo
 
        - i7-r35910 あたりから初回起動時に ``C:\Users\hokorobi\AppData\Local\fontconfig`` にフォントのキャッシュを作るようになった。
          フォントキャッシュを作らないようにする設定はわからない。nofontconfig ではないみたい。
-         mpv へ移行。
 
+     - mpv へ移行。
      - 2016-02-11
    * - `Clink <http://mridgers.github.io/clink/>`_
      - 0.4.4
      - ConEmu で bash ライクな色々を提供してくれる。
        履歴と C-r のインクリメンタルサーチでしかほとんど使えていないけれど。
-       nyagos を使うようになったので、とりあえずインストールしていない
+     - nyagos を使うようになったので、とりあえずインストールしていない
      - 2015-02-28
    * - `CubePDF <http://wwwcube-softjp/cubepdf/>`_
      - 1.0.0 RC7
      - 印刷をPDFへ保存。
-       Windows10 にしたら PDF 出力が OS にあったので削除
+     - Windows10 にしたら PDF 出力が OS にあったので削除
      - 2014-11-28
    * - `akinosign <http://www.vector.co.jp/soft/winnt/writing/se495848.html>`_
      - 2.02
      - IME の状態をテキストフィールドの色を変えて表示。
        .NET Framework 製なのでメモリ消費量は多い。
        色を見る前に入力を始めてしまうので意味が無い……。慣れたら違うのかな？
-       やっぱり慣れなかった。
+     - やっぱり慣れなかった。
      - 2014-05-31
    * - `FreeMind <http://freemind.sourceforge.net/wiki/index.php/Main_Page>`_
      - 1.0.0 beta2
      - マインドマップを書くためのツール。
        その名の通りフリー。
+     - Freeplane へ。
      - 2012-04-21
    * - `True Crypt <http://www.truecrypt.org/>`_
      - 6.3a
      - USB メモリの暗号化。
-       USB メモリを使うことがなくなったし、True Crypt は死んだので使っていない。
+     - USB メモリを使うことがなくなったし、True Crypt は死んだので使っていない。
      - 2009-11-25
    * - `BitDefender <http://www.bitdefender.com/index.php>`_
      - 8.0 Free
      - DL したファイルのチェックに使っている。
-       個別にチェックはしなくなった Avira しか使っていない。
 
        - コマンドラインから使うだけなので、インストール時には Custom を選んで削れる物はすべて削る。
        - サービスのBitDefender Scan Server、BitDefender Communicator を停止して無効にする。
@@ -1526,21 +1601,23 @@ kobo
        - `BitDefender (コマンドライン版) <http://lets-go.hp.infoseek.co.jp/bitdefender.html>`_ で提供されている bdcscan.bat を使っている。
        - 定義ファイルのアップデートは bdcupdate.vbs を使っている。
 
+     - 個別にチェックはしなくなった Avira しか使っていない。
      - 2005-08-10
    * - `PageDefrag <http://technet.microsoft.com/ja-jp/sysinternals/bb897426(en-us).aspx>`_
      - 2.32
      - ページファイルやレジストリの断片化を解消。
        Windows7 64bit Home Premium では使えないみたい。
+     - SSD になったのでデフラグは使わなくなった。
      - 2005-07-13
    * - `Auslogic Registry Defrag <http://www.auslogics.com/en/software/registry-defrag/>`_
      - 7.3.1.0
      - レジストリのデフラグ。
-       Eusing Software の方がデフラグ対象が多いみたいなので、こちらは削除。
+     - Eusing Software の方がデフラグ対象が多いみたいなので、こちらは削除。
      - 2013-10-17
    * - `Eusing Free Registry Defrag <http://www.eusing.com/free_registry_defrag/registry_defrag.htm>`_
      - 2.2
      - レジストリのデフラグ。
-       Windows10 には対応していないみたい。
+     - Windows10 には対応していないみたい。
      - 2013-10-15
    * - `md5sum <http://www.hakusan.tsg.ne.jp/tjkawa/software/paranoia/sha1sum/index.jsp>`_
      - 0.0.2
@@ -1549,22 +1626,27 @@ kobo
        md5sum -l hoge &gt; hoge.md5
        ハッシュ一覧とカレントディレクトリのファイルを比較
        md5sum -c hoge.md5
+     - 使う機会がなくなった。
      - 未インストール
    * - `UnDup <http://hp.vector.co.jp/authors/VA032597/>`_
      - 1.5g
      - 重複ファイルの削除。
+     - 使う機会がなくなった。
      - 未インストール
    * - `Unlocker <http://ccollomb.free.fr/unlocker/index.htm>`_
      - 1.9.1
      - ロックされて削除のできないファイルをアンロックしてくれる。
+     - 使う機会がなくなった。
      - 未インストール
    * - `Recuva <http://www.piriform.com/>`_
      - 1.53
      - ゴミ箱からも削除してしまったファイルを復元。
+     - 使う機会がなくなった。
      - 2016-06-12
    * - `ResourceHacker <http://www.angusj.com/resourcehacker/>`_
      - 3.5.2
      - アプリケーションの邪魔なダイアログを削ったり，フォントを変えたり。
+     - 使う機会がなくなった。
      - 2011-11-23
    * - `Comodo Internet Security <http://www.personalfirewall.comodo.com/>`_
      - 6.3.297838.2953 64bit
@@ -1572,25 +1654,26 @@ kobo
        AntiVirus 機能を正式に謳うようになって名称も変更されたみたい。
        `Comodo Firewall Pro @ まとめ <http://www4.atwiki.jp/comodopf/>`_ ,
        `公式フォーラム <https://forums.comodo.com/>`_
-       Windows10 以降とともに削除
+     - Windows10 以降とともに削除
      - 2013-11-04
    * - `WinSCP <http://winscp.net/>`_
      - 5.1
      - FTP クライアント。
        いつの間にか多重接続できるようになっていたみたい。
        キューはちゃんと動くかな？
-       使っていないので削除。
+     - 使っていないので削除。
      - 2012-09-25
    * - `QMAIL3 <http://q3.snak.org/ja/>`_
      - 3.0.9
      - メーラ。
        Gmail の受信後の処理でエラーが出るようになったので Sylpheed へ乗り換え。
        インポートは、 ``C:\Users\hokorobi\AppData\Roaming\QMAIL3\accounts\GMail_tada\msg`` のファイルを ``*.eml`` へ変更してインポート。
+     - 使っていないので削除。
      - 2010-11-25
    * - `Sylpheed <http://sylpheed.sraoss.jp/ja/>`_
      - 3.5
      - メーラ
-       Gmail だけでしかメールを使わないので削除。
+     - Gmail だけでしかメールを使わないので削除。
      - 2016-01-27
    * - `Opera <http://www.opera.com/>`_
      - 12.17 32bit / 27
@@ -1599,47 +1682,52 @@ kobo
        11.60 は読み込みが途中で切れたり、よく落ちたりするので 11.52 に戻した。
        11.61 は読み込みが途中で切れる現象がまだ起こるので 11.52 に戻した。少し試した限りでは落ちることはほとんどなかった。
        11.60 以降の読み込みが途中で切れる件は、opera:config#Performance|EnablePipelining を使わないように設定することで改善されたみたい。
-       Cyberfox へ移行した。
+     - Cyberfox へ移行した。
      - 2014-04-12 / 2015-01-27
    * - `Notepad++ <http://notepad-plus-plus.org/>`_
      - 6.3.2
      - Mercurial のコミットメッセージ入力用
-       使っていない。
+     - 使っていない。
      - 2013-04-06
    * - `Foxit Reader <http://www.foxitsoftware.com/>`_
      - 5.3.1.0606
      - 以前はフォントが気に入らなくて削除してしまったけれど、だいぶマシになったように感じる。それでも Acrobat Reader の方が好みではある。
        ページめくりで PDF-XChange Viewer のようにちらつかないのは良い。
        ページめくりの速度も上々。
+     - Sumatra PDF へ。
      - 2012-08-26
    * - `PDF-XChange Viewer <http://www.docu-track.com/>`_
      - 2.00407 Portable
      - ページめくりのちらつきが嫌。
-       背景色が白以外だったりすると耐えられない。
        編集機能が付いているので気にはなるのだけれど……。
+     - 背景色が白以外だったりすると耐えられない。
      - 2008-11-27
    * - `Paper Plane xUI Everything Search Module <http://toro.d.dooo.jp/slppx.html#ppxets>`_
      - R5
      - Everything を使って検索機能を追加。
-       インクリメンタルサーチが便利なので Everything を呼び出して使うようにした。
+     - インクリメンタルサーチが便利なので Everything を呼び出して使うようにした。
      - 2013-12-22
    * - `Direct Show Filter Tool <http://hp.vector.co.jp/authors/VA032094/DFTool.html>`_
      - 1.04
      - メリット値を変更して優先させるフィルタを変更。
+     - 使う機会がなくなった。
      - 2004-08-17
    * - `xyzzy with 2ch-mode <http://www7a.biglobe.ne.jp/~hat/xyzzy/2ch-mode.html>`_
      - 0.0.1.2
      - 2ch を xyzzy で読む。
        なかなか使いこなせないけどインクリメンタルサーチが便利。
+     - 使う機会がなくなった。
      - 2010-10-26
    * - `xyzzy <http://www.jsdlab.co.jp/~kamei/>`_
      - 0.2.2.249
      - メモを書いたり、2ch 見たり、コード書いたり。
        - `xyzzy 0.2.2 <http://xyzzy-022.github.com/>`_
+     - 使う機会がなくなった。
      - 2013-04-29
    * - `Bazaar <http://bazaar.canonical.com/en/>`_
      - 2.5.1-1 standalone
      - 日本語ファイルのバージョン管理に。
+     - 使う機会がなくなった。
      - 2012-07-05
    * - `msysgit <http://code.google.com/p/msysgit/>`_
      - 1.9.4-preview20140929
@@ -1657,36 +1745,38 @@ kobo
 
          git config --global core.pager "LESSCHARSET=utf-8 less"
 
-       2016-02-27 アンイストール。MSYS2 の Git に移行済み。
+     - 2016-02-27 アンイストール。MSYS2 の Git に移行済み。
      - 2014-11-23
    * - `dgcac.exe <http://www.emit.jp/>`_
      - 1.09
      - DGCA 書庫操作用コンソールアプリケーション。
+     - 使う機会がなくなった。
      - 2006-02-27
    * - `UnGCA32.DLL <http://www6.plala.or.jp/amasoft/index.html>`_
      - 0.11b
      - GCA 書庫操作用 DLL。
+     - 使う機会がなくなった。
      - 2005-03-15
    * - `GitKraken <https://www.gitkraken.com/>`_
      - 2.31
      - Git の GUI クライアント
-       コミットにフォーカスを移したときに、差分が表示されてほしいので SourceTree へ移行
+     - コミットにフォーカスを移したときに、差分が表示されてほしいので SourceTree へ移行
      - 2017-04-07
    * - `ERUNT, NTREGOPT <http://www.larshederer.homepage.t-online.de/erunt/index.htm>`_
      - 1.1j
      - ERUNT でレジストリのバックアップ（使ったこと無い）。
        NTREGOPT でレジストリの最適化。
-       Windows10 で使えるか確認できないので削除 [2017-05-17]
+     - Windows10 で使えるか確認できないので削除 [2017-05-17]
      - 2005-10-20
    * - `最前面でポーズ <http://so-zou.jp/software/pause/>`_
      - 1.03
      - Amazon ビデオを IE で見る際に最前面に表示。
-       autohotkey で作れたのでお蔵入り [2017-11-19]
+     - autohotkey で作れたのでお蔵入り [2017-11-19]
      - 2016-12-27
    * - `FileSeeker3 <http://mokuzu.sakura.ne.jp/wiki/?FileSeeker3>`_
      - 3.1.1 beta
      - NTFS change Journal を使って高速ファイル検索。
-       管理者権限にならないといけないので使いにくい。
+     - 管理者権限にならないといけないので使いにくい。
      - 2010-08-21
    * - `DAEMON Tools Lite <http://www.daemon-tools.cc/dtcc/announcements.php>`_
      - 4.35.6
@@ -1704,44 +1794,52 @@ kobo
          ^A -unmount 0
          ^F C:\bin
 
-       使おうとしたらエラーメッセージが出るようになったのでアンインストール。
+     - 使おうとしたらエラーメッセージが出るようになったのでアンインストール。
        Virtual Clone Drive へ変更。
      - 2010-12-06
    * - `Revo Uninstall <http://www.revouninstaller.com/revo_uninstaller_free_download.html>`_
      - 1.9.4 portable
      - 「アプリケーションの追加と削除」よりも色々と消してくれるアンインストーラ。
+     - 使う機会がなくなった。
      - 2012-05-16
    * - `Extensible Performance Counter List <http://www.microsoft.com/windows2000/techinfo/reskit/tools/existing/exctrlst-o.asp>`_
      - 不明
      - パフォーマンスカウンタを取るか否かの選択ができる。
        ftp://ftp.microsoft.com/reskit/win2000/ からもダウンロードできる。
+     - 使う機会がなくなった。
      - 2005-09-17
    * - `RegDllView <http://www.nirsoft.net/utils/registered_dll_view.html>`_
      - 1.36
      - COM に登録されている DLL, OCX, EXE を一覧表示する。
        登録されているけれど使っていないというものを幾つか見つけて削除することができた。
+     - 使う機会がなくなった。
      - 2009-09-02
    * - `Javara <http://raproducts.org/>`_
      - 1.14
      - Java のランタイム削除。
+     - 使う機会がなくなった。
      - 2009-05-29
    * - `bbLean <http://bb4win.sourceforge.net/bblean/>`_
      - bbLean 1.17.1 64bit
      - 軽いという代替シェル。
        特に軽いという風にも思わなかったけど Explorer の変わりに Shell にしている。
+     - Win7 から使っていない。
      - 2010-10-26
    * - `nyaos <http://www.nyaos.org/index.cgi?p=FrontPage.ja>`_
      - 3.3.6_1
      - シェル
+     - nyagos へ。
      - 2013-03-20
    * - `ckw-mod <https://github.com/hokorobi/ckw-mod>`_
      - 0.9.0-d2 x64
      - シェルラッパー？
+     - ConEmu へ。
      - 2012-01-19
    * - `Console2 <http://sourceforge.net/projects/console/>`_
      - 2.00b147 64bit + IME 20110527
      - シェルラッパー
        日本語入力ができるように cmd にかぶせて使っている。
+     - ConEmu へ。
      - 2012-08-26
    * - `Calibrize <http://www.calibrize.com/>`_
      - 3.5.0
@@ -1751,36 +1849,38 @@ kobo
        msconfig から 「Intel(R) Common User Interface」のスタートアップ対象からはずした。
        Calibrizeが作成したICCプロファイルが（既定）になっていなかったので変更してみた。
        タスクスケジューラに Calibrize Gamma Loader を登録しているけれど、レジストリの User Run に登録されているから不要だったりしないのかな？
-       とりあえず設定していない。
+     - とりあえず設定していない。
      - 2017-07-29
    * - `NanJoy <http://crimson.onmitsu.jp/>`_
      - 2.33
      - ジョイパッドの操作をキーボードやマウスに割り当てる。
+     - JoyToKey へ。
      - 2010-10-05
    * - `かざぐるマウス <http://www.staticflower.net/software/kazaguru.html>`_
      - 1.65
      - マウスジェスチャ。
+     - 使う機会がなくなった。
      - 2013-06-09
    * - `RegScanner <http://www.nirsoft.net/>`_
      - 2.00
      - レジストリから文字列を検索して一覧表示。
        一覧から regedit.exe で該当する箇所を表示。
+     - 使う機会がなくなった。
      - 2013-07-14
-   * - `GeekUninstaller <https://www.geekuninstaller.com/>`_
-     - 1.4.5.134
-     - AppStore アプリのアンインストール
-     - 2018-12-15
    * - `Tera Term <http://sourceforge.jp/projects/ttssh2/>`_
      - 4.65
      - Cygwin へのアクセスに使用する Cygterm のため。
+     - 使う機会がなくなった。
      - 2010-05-02
    * - `radiro <http://radiro.tcraft.biz/>`_
      - 1.0.9.1
      - radiko ブラウザ。
+     - 使う機会がなくなった。
      - 2012-12-16
    * - `MuRadiko <http://www.muraodos.com/muradiko.html>`_
      - 2.66
      - radiko.jp(ラジコ) ・らじる★らじる・サイマルラジオ（“CSRA.fm”・“JCBA”）
+     - 使う機会がなくなった。
      - 2013-03-31
    * - `Wireshark <http://www.wireshark.org/>`_
      - 1.8.5 64bit
@@ -1788,86 +1888,102 @@ kobo
        Winpcap サービスを OS 起動時に実行しない場合、Wireshark を管理者権限で実行しないと Winpcap のサービスが起動できずにエラーとなる。
        `参考 <http://typea.info/tips/wiki.cgi?page=Wireshark+Windows7+%A4%C7+NPF%A5%C9%A5%E9%A5%A4%A5%D0%A5%A8%A5%E9%A1%BC>`_
        Wireshark.exe のプロパティから管理者で実行するように設定。
+     - 使う機会がなくなった。
      - 2013-01-30
    * - `WinPcap <http://www.winpcap.org/>`_
      - 4.1.2
      - Wireshark で必要。
+     - 使う機会がなくなった。
      - 2011-12-24
    * - `TCP Monitor Plus <http://hp.vector.co.jp/authors/VA032928/>`_
      - 2.59
      - 通信状況表示
+     - 使う機会がなくなった。
      - 2012-01-19
    * - `UltraVNC <http://www.uvnc.com/>`_
      - 1.0.8.2
      - VNC
+     - 使う機会がなくなった。
      - 2011-05-14
    * - `TrueRemote <http://blog.x-row.net/?p=47>`_
      - 1.2.6
      - リモートデスクトップ。
+     - 使う機会がなくなった。
      - 2012-04-10
    * - `Brynhildr <http://brynhildr.x-row.net/>`_
      - 1.0.0.2
      - リモートデスクトップ。TrueRemote の方が速い。
+     - 使う機会がなくなった。
      - 2013-10-15
    * - `Mirror-DTC <http://homepage2.nifty.com/t_ishii/mc/>`_
      - 1.2.3
      - リモートデスクトップ。TrueRemote より速いかも
+     - 使う機会がなくなった。
      - 2013-04-07
    * - `Cyberfox <https://cyberfox.8pecxstudios.com/>`_
      - 52.6.1
      - Opera がきな臭くなってきたので移行先として試している。
        メインブラウザは Vivaldi へ移行した。
        サブのブラウザを Firefox にしていたが 57 から使えなくて不便になる拡張があったので Cyberfox をサブにした。 [2017-11-15]
-       Firefox をサブにした。 [2018-01-21]
+     - Firefox をサブにした。 [2018-01-21]
      - 2018-01-21
    * - `SRWare Iron <http://www.srware.net/forum/viewforum.php?f=18>`_
      - 61
      - Chromium 派生 Web ブラウザ。
        28.0.15500.0 は twicli でツイートやリツイートに反応しないことがある。
        Opera15 と同じ現象だから、どうも Blink がまずいみたい。
+     - Vivaldi へ。
      - 2017-09-26
    * - `jq.exe <http://stedolan.github.io/jq/>`_
      - 1.2
      - JSON パーサ。 `紹介 <http://beatsync.net/main/log20130428.html>`_
+     - jj へ。
      - 2013-04-30
    * - `jvgrep <https://github.com/mattn/jvgrep/downloads>`_
      - 4.2 amd64 go 1.5.1
      - 文字コード混在のファイルを grep できるソフト。
        go をインストールしてビルドした。 http://d.hatena.ne.jp/hokorobi/20130615/1371285263
        go get -u -ldflags -s github.com/mattn/jvgrep
-       Platinum Searcher の方が速いようなので移行できないか試している。
+     - Platinum Searcher の方が速いようなので移行できないか試している。
      - 2015-10-24
    * - `PngOptimizer <http://psydk.org/PngOptimizer.php>`_
      - 2.0 x64
      - PNG のサイズを小さくする。
        PNGOUT よりは大きくなる。でも速い。
+     - pingo へ。
      - 2011-09-24
    * - `SmillaEnlarger <http://sourceforge.net/projects/imageenlarger/>`_
      - 0.9.0
      - 画像を綺麗に拡大。
+     - 使う機会がなくなった。
      - 2010-09-07
    * - `JDK <http://www.oracle.com/technetwork/java/javase/downloads/index.html>`_
      - 1.8.0.73 x64
      - JDK。とりあえず削除した。
        また入れた。
+     - 使う機会がなくなった。
      - 2016-02-22
    * - `contig <http://technet.microsoft.com/ja-jp/sysinternals/bb897428(en-us).aspx>`_
      - 1.7
      - ファイルを個別にデフラグしてくれる。
        動画などを再生していて HDD の音が大きいときなんかに試す。
+     - SSD になったので使わなくなった。
      - 2012-11-20
    * - `WinContig <http://wincontig.mdtzone.it/en/index.htm>`_
      - 2.1.0.0
      - ファイルやフォルダを指定してデフラグ
+     - SSD になったので使わなくなった。
      - 2017-02-19
    * - `Defraggler <http://www.piriform.com/defraggler>`_
      - 2.19
      - デフラグツール。
        Analyze 後にファイルサイズが大きい物だけデフラグとか。
+     - SSD になったので使わなくなった。
      - 2015-03-14
    * - `Auslogic Disk Defrag <http://www.auslogics.com/en/software/disk-defrag/>`_
      - 5.2.0
      - デフラグ
+     - SSD になったので使わなくなった。
      - 2015-01-30
    * - `Noah <http://www.kmonos.net/>`_
      - 3.199
@@ -1875,29 +1991,34 @@ kobo
        b2e ファイルを書くことで更なる拡張も可能。
        `Noah+ もあるよ。`:strike: ゴタゴタがあってなくなったみたい。
        Noah.ini へ NoExt=1 を指定すると aaa.bbb.ccc を圧縮したときの書庫名を aaa.lzh ではなく aaa.bbb.ccc.lzh としてくれる。
+     - 使う機会がなくなった。
      - 2010-11-26
    * - `7za.exe <http://sourceforge.net/projects/sevenzip/>`_
      - 9.22 beta
      - `yc 氏の 7z.b2e <http://b2efile.at.infoseek.co.jp/0-b.html#sevenzip>`_ をもらってきて Noah から 7z 展開用に使用している。
        DF の登録コマンドから直接、7z 圧縮用に使用している。
+     - 使う機会がなくなった。
      - 2011-04-19
    * - `rar.exe, unrar.exe <http://www.rarsoft.com/>`_
      - 4.1.1
      - Noah から RAR 書庫を作成する。
+     - 使う機会がなくなった。
      - 2012-04-29
    * - `偽UnZip32.DLL <http://www31.ocn.ne.jp/~heropa/>`_
      - 5.5.2.0 (4)
      - 7-zip32.dll を使って UnZip32.DLL のふりをさせる DLL。
        DF から zip を扱う場合に使用している `……まず使う場面はないけれど。`:strike: 結構使うようになった。
+     - 使う機会がなくなった。
      - 2009-08-14
    * - `7-zip32.dll <http://akky.cjb.net/>`_
      - 9.22.00.02
      - 偽UnZip32.DLL を併用して DF から zip を扱う場合に使用している `……まず使う場面はないけれど。`:strike: 結構使うようになった。
-       Noah 経由でも 7za を使用するようになった。
+     - Noah 経由でも 7za を使用するようになった。
      - 2017-02-17
    * - `WinExChange <http://www.55555.to/>`_
      - 7.09
      - ファイルの拡張子を中身から推測。
+     - 使う機会がなくなった。
      - 2010-08-25
    * - `DF (ファイラ) <http://homepage1.nifty.com/bee/df/>`_
      - Ver.198
@@ -1910,48 +2031,57 @@ kobo
        - 同じくテキストビュアで文字コードの判別精度を上げてほしい。
        - ビューアを表示したまま、ファイラから次のファイルを表示するといった機能をつけてほしい。
 
+     - PPx へ。
      - 2011-08-07
    * - `CCleaner <http://www.ccleaner.com/>`_
      - 5.32
      - 不要なレジストリキーの削除。
        テンポラリファイル他などのファイルも削除。
+     - 使う機会がなくなった。
      - 2017-07-15
    * - `Easter <http://hp.vector.co.jp/authors/VA035038/download/easter/index.html>`_
      - 0.92
      - 取り外し状態になった USB 機器を再接続。
        SD カード取り出しのために、SD カードリーダを取り外し状態にしたときなんかに使っている。
-       XP 時代の話なので 7 では、まだ使ったことがない。
+     - XP 時代の話なので 7 では、まだ使ったことがない。
      - 2011-03-07
    * - `AutoIt <http://www.autoitscript.com/site/autoit/>`_
      - 3.3.8.1
      - スクリプトによる Windows の操作。
+     - 使う機会がなくなった。
      - 2012-01-31
    * - `UWSC <http://www.uwsc.info/>`_
      - 4.8e Free
      - スクリプトによる Windows の操作。
+     - 使う機会がなくなった。
      - 2013-04-03
    * - `bktimer <http://www14.ocn.ne.jp/~bkclass/bktimer.html>`_
      - 0.13.0-1
      - タイマーで色々と使用。
        コマンドラインオプションで時間が設定できるのが嬉しい。
        `AAタイマー <http://hp.vector.co.jp/authors/VA011136/aatm.html>`_ から変更。
+     - 自作タイマーを使うようになった。
      - 2012-02-09
    * - `KeyHoleTV <http://www.v2p.jp/video/>`_
      - 3.14
      - テレビの視聴。ほとんど使えない。
+     - 使う機会がなくなった。
      - 2010-05-02
    * - `SQLiteStudio <http://sqlitestudio.one.pl/index.rvt>`_
      - 1.1.3
      - SQLite を GUI で操作。
+     - 使う機会がなくなった。
      - 2010-04-29
    * - `SQLite <http://www.sqlite.org/>`_
      - 3.6.23.1
      - 小さな SQL データベースエンジン。
+     - 使う機会がなくなった。
      - 2010-04-29
    * - `WhosIP <http://www.nirsoft.net/utils/whosip.html>`_
      - 1.03
      - PFW の設定などで IP を範囲指定するときなどに使ったりする。
        以前は `ANSI Whois Gateway <http://whois.ansi.co.jp/>`_ を使っていた。
+     - 使う機会がなくなった。
      - 2008-12-11
    * - `Cygwin <http://cygwin.com/>`_
      - 1.7.4-1
@@ -1987,15 +2117,17 @@ kobo
          alias ls='ls --show-control-chars --color=auto'
 
        | `UTF-8 Cygwin <http://www.okisoft.co.jp/esc/cygwin-20.html>`_ というのもある。
-       | 最近は使っていない。
+     - 最近は使っていない。
      - 2010-04-10
    * - `Eclipse <http://www.eclipse.org/>`_
      - 3.7.1 Eclipse IDE for Java Developers
      - IDE
+     - 使う機会がなくなった。
      - 2011-12-28
    * - `groovy <http://groovy.codehaus.org/>`_
      - 2.1
      - groovy `groovy <http://groovy.codehaus.org/>`_
+     - 使う機会がなくなった。
      - 2013-01-26
    * - `Virtual Clone Drive <http://www.elby.ch/>`_
      - 5.4.7.0
@@ -2011,17 +2143,19 @@ kobo
          ^A /u
          ^F C:\Program Files (x86)\Elaborate Bytes\VirtualCloneDrive
 
+     - Win10 の機能で十分。
      - 2014-05-20
    * - `UNBYPASS <http://toro.d.dooo.jp/slplugin.html#unbypass>`_
      - 1.7
-     - | 32 bit Susie Plugin を 64 bit Paper Plane で使う。
-       | 本体同梱なので削除 [2018-08-15]
+     - 32 bit Susie Plugin を 64 bit Paper Plane で使う。
+     - 本体同梱なので削除 [2018-08-15]
      - 2015-03-14
    * - `LAV Filters <http://forum.doom9.org/showthread.php?t=156191>`_
      - 0.55.3 Splitter
      - | DirectShow Media Splitter and Decoders
        | 管理者権限でコマンドプロンプトを起動して、install_splitter.bat を実行してインストール。
        | 0.55.3 から exe でインストール。 ``C:\Program Files (x86)\LAV Filters``
+     - 使う機会がなくなった。
      - 2013-03-17
    * - `PowerDVD <http://jp.cyberlink.com/products/powerdvd/overview_ja_JP.html>`_
      - 12
@@ -2029,40 +2163,45 @@ kobo
        | Uniextract で展開して、Data1.7z の ``MediaEspresso\subsys\Video\filter\H264`` のファイルを適当なところにコピー。
        | 外部フィルタとして cl264dec.ax を指定。 Prefer に指定。
        | ダブルクリックで DXVA を使うように設定。
+     - 使う機会がなくなった。
      - 2012-02-02
    * - `Kobito <http://kobito.qiita.com/win>`_
      - 2.0.2
      - Qiita への投稿。
-       使えなくなった。
+     - 使えなくなった。
      - 2016-09-06
    * - `Avidemux <http://fixounet.free.fr/avidemux/>`_
      - 2.6.15
      - Youtube の動画の不要部分を無劣化で取り除く。
-       LosslessCut に移行。
+     - LosslessCut に移行。
      - 2016-12-04
    * - `GanttProject <http://www.ganttproject.biz/>`_
      - 2.6.1
      - MS Project みたいなの
+     - 使う機会がなくなった。
      - 2013-02-08
    * - `PsKill <http://technet.microsoft.com/ja-jp/sysinternals/bb896683.aspx>`_
      - 1.15
      - プロセスの停止。
        Mercurial 拡張 statdaemon で常駐する hg.exe を停止させる。
+     - 使う機会がなくなった。
      - 2012-10-28
    * - `USB Oblivion <http://code.google.com/p/usboblivion/>`_
      - 1.9.0.0
      - USB の接続情報を削除する。
+     - 使う機会がなくなった。
      - 2012-11-15
    * - `milkode <http://milkode.ongaeshi.me/>`_
      - 0.29
      - rroonga を使って全文検索。
+     - 使う機会がなくなった。
      - 2011-12-26
    * - `私本管理Plus <http://homepage1.nifty.com/EKAKIN/>`_
      - 6.1.0
      - 蔵書管理ソフト。
        3.4.29 から (多分) ISBN を元にした書籍データの取得が速くなった。素敵。
        5.6.13 は Ctrl や Shift を押すとエラーダイアログが表示される場合があったのでやめた。
-       `ブクログ <https://booklog.jp/>`_ に移行。 [2016-09-19]
+     - `ブクログ <https://booklog.jp/>`_ に移行。 [2016-09-19]
      - 2016-04-08
    * - `Ruby <http://rubyinstaller.org/>`_
      - 1.8.7 p352
@@ -2075,37 +2214,45 @@ kobo
        $ ruby dk.rb install
 
        mswin32 版は make でなく nmake を使おうとするので DevKit では使えない（使い方があるのかもしれないが知らん）
+     - 使う機会がなくなった。
      - 2011-12-26
    * - `MKVToolnix <http://www.bunkus.org/videotools/mkvtoolnix/>`_
      - 5.0.1
      - MKV や MKA を作製するためのツール群。
+     - 使う機会がなくなった。
      - 2011-10-10
    * - `x264 <http://developers.videolan.org/x264.html>`_
      - revision 1120 bob0r
      - H.264/AVC をエンコードするためのライブラリらしい。
        `bob0r <http://x264.nl/>`_ , http://komisar.gin.by/ , `猫科研究所 <http://www.up-cat.net/FrontPage.html>`_ : changelog 和訳
+     - 使う機会がなくなった。
      - 2009-03-05
    * - `Avisynth <http://sourceforge.net/projects/avisynth2/>`_
      - 2.5.8
      - 久方ぶりに WavSource を使ってみたらエラーが発生するようになった。原因不明 (2.5.7, 2.5.8 RC4 and RC4a)
+     - 使う機会がなくなった。
      - 2009-01-03
    * - `avs2wav <http://www.avisynth.info/?avs2wav>`_
      - 2007-10-08
      - AVS ファイルから WAV ファイルを出力する。
+     - 使う機会がなくなった。
      - 2007-11-28
    * - `DGMPGDec <http://neuron2.net/dgmpgdec/dgmpgdec.html>`_
      - 1.5.8
      - DVD のデータを Avisynth へ渡すためのデータを作成する。
        Frame Rate が 29.970 で、Video Type の欄が FILM n% (n &gt;= 95)、または FILMとなっていた場合は、Field Operation を Forced FILM にする。
+     - 使う機会がなくなった。
      - 2010-12-05
    * - `VirtualDub <http://sourceforge.net/projects/virtualdub/>`_
      - 1.9.10
      - Desktop video processing and capture application (Win32).
+     - 使う機会がなくなった。
      - 2010-09-07
    * - `AvsP <http://avisynth.org/qwerpoi/>`_
      - 2.2.0 mod
      - Avisynth 用のテキストエディタ。動画のフレームプレビューも可能。再生はできないみたい。
        `AvsPmod <http://forum.doom9.org/showthread.php?t=153248>`_
+     - 使う機会がなくなった。
      - 2011-07-01
    * - `MP4Box <http://kurtnoise.free.fr/mp4tools/>`_
      - 0.4.5
@@ -2121,12 +2268,14 @@ kobo
        - mp4 ファイルの連結（新規）: mp4box -add mp4file1 -cat mp4file2 -cat mp4file3 -new mp4outputfile
        - mp4 ファイルの連結（既存）: mp4box -cat mp4addfile mp4existfile
 
+     - 使う機会がなくなった。
      - 2009-09-04
    * - `SIMD Enhanced JPEG Plug-in <http://cetus.sakura.ne.jp/softlab/>`_
      - 0.21
      - JPEG を表示。
        `バージョンアップするたびに遅くなっているような気がする。`:strike:
        0.14B で速くなった。
+     - JPEG-turbo Susie Plug-in へ。
      - 2006-01-07
    * - `Susie32 PNG Plug-in <http://cetus.sakura.ne.jp/softlab/>`_
      - 0.25
@@ -2138,16 +2287,27 @@ kobo
          spibench -t 30 IFPNG024.spi ScreenShot.png
 
        の結果が 2.2 秒くらい。
+     - 使う機会がなくなった。
      - 2007-05-31
    * - `Google 日本語入力 <https://www.google.co.jp/ime/>`_
      - stable
      - 日本語入力。
-       MS-IME がそれなりに使える気がするので新PCでは使っていない。
+     - MS-IME がそれなりに使える気がするので新PCでは使っていない。
      - 2013-12-14
    * - `CrystalDiskInfo <http://crystalmark.info/>`_
      - 7.7.0
      - | 操作感の引っ掛かりをなくす。
        | 機能 - 上級者向け機能 - AAM/APM 設定 から対象のディスクを選択してパフォーマンス最高で有効にする。
-       | SDD のみの新 PC では必要なくなったっぽい。
+     - SSD のみの新 PC では必要なくなったっぽい。
      - 2018-09-24
+   * - `Process Hacker <http://processhacker.sourceforge.net>`_
+     - 2.33
+     - プロセスの詳細な情報を表示することができるタスクマネージャ。
+     - `Process Explorer に対しては、プロセスが使用中のファイルを探せる機能があるので試している。`:strike: Process Explorer でも探せることが分かったので使わない。
+     - 2013-12-29
+   * - `IME Cursor <https://shirouzu.jp/tech/IMECursor.htm>`_
+     - 1.00
+     - マウスカーソルに IME のオン状態を表示。
+     - Vivaldi での状態表示がうまくいかない
+     - 2019-06-27
 
