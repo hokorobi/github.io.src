@@ -209,28 +209,21 @@ Soft
 
   + サインインしたときに起動：オフ
 
-* Install
+* MS-IME
 
-  + Java
-  + Font: `Cica <https://github.com/miiton/Cica>`_
+  + 設定
 
+    - スペースは常に半角
+    - IME 入力モードの切り替えの通知：オフ
 
-MS-IME の設定
--------------
+  + キー設定
+    `設定レジストリファイル <_static/imejp-stylelist.reg>`_
 
-* スペースは常に半角
-* IME 入力モードの切り替えの通知：オフ
-
-キー設定
-~~~~~~~~
-
-* ATOK 設定
-* C-j: Enter コピー
-* C-n: 次候補
-* C-p: ↑からコピー
-* C-l: ↓からコピー
-
-`設定レジストリファイル <_static/imejp-stylelist.reg>`_
+    - ATOK 設定
+    - C-j: Enter コピー
+    - C-n: 次候補
+    - C-p: ↑からコピー
+    - C-l: ↓からコピー
 
 
 そのほか
@@ -264,7 +257,6 @@ MS-IME の設定
   + GOPATH: ``path\to\go folder``
   + GOROOT: ``%USERPROFILE%``
   + GRAPHVIZ_DOT: ``path\to\dot.exe folder``
-
 
 
 エラー対応
