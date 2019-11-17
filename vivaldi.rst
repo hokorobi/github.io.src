@@ -32,8 +32,8 @@ Vivaldi
 - `uBlock Origin <https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm>`_
 - `はてなブックマーク <https://chrome.google.com/webstore/detail/はてなブックマーク/dnlfpnhinnjdgmjfpccajboogcjocdla>`_
 
-    - 設定 - ウェブページ - タブズームを使う のチェックを外す。
-      はてなブックマークのウィンドウサイズが微妙になることが多いため。
+    - | 設定 - ウェブページ - タブズームを使う のチェックを外す。
+      | はてなブックマークのウィンドウサイズが微妙になることが多いため。
 
 
 
@@ -44,6 +44,6 @@ Vivaldi
 ウェブページ
 ~~~~~~~~~~~~
 
-- タブズームを使う: 無効
-  有効になっていると、はてなブックマーク使用時のウィンドウが画面からはみ出てスクロールが必要になる。
+- | タブズームを使う: 無効
+  | 有効になっていると、はてなブックマーク使用時のウィンドウが画面からはみ出てスクロールが必要になる。
 
