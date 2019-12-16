@@ -44,6 +44,10 @@ extensions = [
 
 extensions.append('sphinx_copybutton')
 
+# 改行で挿入される日本語間の半角スペースを削除
+extensions.append('sphinxcontrib.trimblank')
+trimblank_keep_alnum_blank = ['html', 'singlehtml']
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
