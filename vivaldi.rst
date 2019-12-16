@@ -32,7 +32,7 @@ Vivaldi
 - `uBlock Origin <https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm>`_
 - `はてなブックマーク <https://chrome.google.com/webstore/detail/はてなブックマーク/dnlfpnhinnjdgmjfpccajboogcjocdla>`_
 
-    - | 設定 - ウェブページ - タブズームを使う のチェックを外す。
+    - | 設定 - ウェブページ - タブズームを使う: チェックを外す
       | はてなブックマークのウィンドウサイズが微妙になることが多いため。
 
 
