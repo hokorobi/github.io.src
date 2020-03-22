@@ -5,7 +5,7 @@ Account
 --------
 
 * Twitter: `h0k0r0bi <https://twitter.com/h0k0r0bi>`_
-* Bitbucket: `hokorobi <https://bitbucket.org/hokorobi/>`_
+* GitHub: `hokorobi <https://github.com/hokorobi>`_
 
 Contents
 ---------
