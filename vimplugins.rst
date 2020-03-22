@@ -15,35 +15,35 @@ Vim plugins
        | 自動キャッシュ更新が無効にできるようになったので、最近は困ることがない。
      - 2020-02-22
    * - hokorobi/asyncomplete.vim
-     -
+     - using
      -
      -
    * - prabirshrestha/asyncomplete-buffer.vim
-     -
+     - using
      -
      -
    * - prabirshrestha/asyncomplete-necosyntax.vim
-     -
+     - using
      -
      -
    * - Shougo/neco-syntax
-     -
+     - using
      -
      -
    * - prabirshrestha/asyncomplete-necovim.vim
-     -
+     - using
      -
      -
    * - Shougo/neco-vim
-     -
+     - using
      -
      -
    * - prabirshrestha/asyncomplete-neosnippet.vim
-     -
+     - delete
      -
      -
    * - prabirshrestha/vim-lsp
-     -
+     - using
      -
      -
    * - mattn/vim-lsp-settings
@@ -56,9 +56,13 @@ Vim plugins
 
      - 2020-02-18
    * - prabirshrestha/asyncomplete-lsp.vim
+     - using
      -
      -
-     -
+   * - high-moctane/asyncomplete-nextword.vim
+     - todo
+     - 単語の補完
+     - 2020-03-22
    * - thomasfaingnaert/vim-lsp-snippets
      - delete
      - LSP で snippet。動かせなかった。
@@ -68,15 +72,15 @@ Vim plugins
      - LSP で neosnippet。動かせなかった。
      - 2020-01-19
    * - Shougo/neosnippet.vim
-     -
+     - using
      -
      -
    * - Shougo/neosnippet-snippets
-     -
+     - using
      -
      -
    * - honza/vim-snippets
-     -
+     - using
      -
      -
    * - coc.nvim
@@ -84,79 +88,79 @@ Vim plugins
      - 補完速度が比較的遅いので asyncomplete.vim に移行。
      -
    * - thinca/vim-quickrun
-     -
+     - using
      -
      -
    * - osyo-manga/shabadou.vim
-     -
+     - using
      -
      -
    * - rhysd/reply.vim
-     -
-     -
-     -
+     - using
+     - REPL。ほとんど使っていない。
+     - 2020-03-22
    * - kana/vim-textobj-user
-     -
+     - using
      -
      -
    * - mattn/vim-textobj-url
-     -
+     - using
      -
      -
    * - machakann/vim-sandwich
-     -
+     - using
      -
      -
    * - machakann/vim-textobj-delimited
-     -
+     - using
      -
      -
    * - tommcdo/vim-exchange
-     -
+     - using
      -
      -
    * - kana/vim-textobj-indent
-     -
+     - using
      -
      -
    * - glts/vim-textobj-comment
-     -
+     - using
      -
      -
    * - Julian/vim-textobj-variable-segment
-     -
+     - using
      -
      -
    * - tyru/caw.vim
-     -
+     - using
      -
      -
    * - tsuyoshicho/plantuml-previewer.vim
-     -
+     - using
      -
      -
    * - AndrewRadev/linediff.vim
-     -
+     - using
      -
      -
    * - lambdalisue/vim-diffa
-     -
+     - using
      -
      -
    * - hdima/python-syntax
-     -
+     - using
      -
      -
    * - hynek/vim-python-pep8-indent
-     -
+     - using
      -
      -
    * - previm/previm
-     -
+     - using
      -
      -
    * - plasticboy/vim-markdown
-     -
+     - using
      -
      -
    * - hokorobi/vim-restructuredtext
@@ -170,31 +174,35 @@ Vim plugins
        restructuredtext を書くのに使っていたけど、色々と気に入らないところがあったので vim-restructuredtext へ移行。
      - 2020-01-18
    * - lambdalisue/qfloc.vim
-     -
-     -
-     -
+     - using
+     - quickfix を少し便利にする。無効にしているマッピングもそれなりにある。
+     - 2020-03-15
+   * - romainl/vim-qf
+     - todo
+     - quickfix を便利に使えるようになるみたい。qfloc.vim より多機能？
+     - 2020-03-15
    * - AndrewRadev/quickpeek.vim
-     -
-     -
-     -
+     - using
+     - Quickfix のプレビュー
+     - 2020-03-22
    * - vim-jp/syntax-vim-ex
-     -
+     - using
      -
      -
    * - pangloss/vim-javascript
-     -
+     - using
      -
      -
    * - PProvost/vim-ps1
-     -
+     - using
      -
      -
    * - hokorobi/plantuml-syntax
-     -
+     - using
      -
      -
    * - cespare/vim-toml
-     -
+     - using
      -
      -
    * - osyo-manga/vim-precious
