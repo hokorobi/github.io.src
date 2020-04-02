@@ -144,9 +144,11 @@ Vim plugins
      -
      -
    * - lambdalisue/vim-diffa
-     - using
-     -
-     -
+     - delete
+     - diff を賢くする＋自動アップデートなど。
+       Vim 本体だけでも diffopt+=algorithm:histogram,indent-heuristic で賢くなるらしい。
+       自動アップデートは使っていないので削除。
+     - 2020-03-31
    * - hdima/python-syntax
      - using
      -
@@ -293,9 +295,10 @@ Vim plugins
      -
      -
    * - kana/vim-operator-replace
-     -
-     -
-     -
+     - delete
+     - 選択してペーストができるようになると思っていたけど、標準でもできていた。
+       レジスタが変わらないのでドットリピートできるけど、そのような使い方はしないかな。
+     - 2020-04-01
    * - uplus/vim-clurin
      -
      -
