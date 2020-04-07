@@ -4,10 +4,10 @@ Vim plugins
 .. list-table:: Vim plugins
    :header-rows: 1
 
-   *  - repogitory
-      - status
-      - comment
-      - date
+   * - repogitory
+     - status
+     - comment
+     - date
    * - Shougo/dein.vim
      - using
      - | プラグインマネージャ。高速。
@@ -320,9 +320,14 @@ Vim plugins
      -
      -
    * - hokorobi/yankround.vim
-     -
-     -
-     -
+     - using
+     - vim-submode を使って p, P を連続して押して次々過去のレジスタうから貼り付けできるようにしている。
+     - 2020-04-02
+   * - svermeulen/vim-yoink
+     - todo
+     - xmap では使えない？　試していないからわからないけれど yankroud.vim で満足している。
+       yankround.vim + sub-mode で実現していることが単体でできそう。
+     - 2020-04-02
    * - deris/vim-rengbang
      -
      -
@@ -372,6 +377,16 @@ Vim plugins
      -
      -
      -
+   * - pechorin/any-jump.vim
+     - todo
+     - 定義にジャンプできるらしい。
+       Windows では動かない？　 **:AnyJump** でこんなエラーが出る。::
+
+         function <SNR>17_Jump[35]..search#SearchUsages[4]..<SNR>144_RunRgUsagesSearch の処理中にエラーが検出されました:
+         行   14:
+         E484: ファイル "C:\Users\hokorobi\AppData\Local\Temp\VIo33AC.tmp" を開けません
+
+     - 2020-04-07
    * - haya14busa/vim-asterisk
      -
      -
