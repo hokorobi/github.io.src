@@ -28,23 +28,29 @@ Update はソフトウェアがバージョンアップされた日ではなく�
        | Paper Plane xUI でディレクトリの移動に使っている。
      - 2008-03-18
    * - `Paper Plane xUI <http://toro.d.dooo.jp/slppx.html>`_
-     - 1.69+5 x64
+     - 1.72 x64
      - DF 並に起動が速いけれど、カスタマイズが大変 (楽しい？) なファイラ。
-     - 2019-11-11
+     - 2020-03-22
    * - `Paper Plane xUI Window Module <http://toro.d.dooo.jp/slppx.html>`_
      - R7
      - 指定したウィンドウの最大化を交互におこなうコマンドと、指定したウィンドウ位置・大きさを別のウィンドウに合わせるコマンドが入った PPx Module。
      - 2016-09-03
    * - `Paper Plane xUI Script Module <http://toro.d.dooo.jp/slppx.html>`_
-     - R17+2
+     - R18
      - スクリプトを使えるようにするモジュール。
        R17+1: ログが出力されるのでやめ
        `R17+2: リネーム用スクリプトで ESC を押すと環境依存文字が入力されるのでやめ`:strike: 本体側が原因 1.69+3 で修正
-     - 2019-11-04
+     - 2020-01-13
    * - `Paper Plane xUI Text Module <http://toro.d.dooo.jp/slppx.html>`_
      - R4
      - テキスト関係のコマンドを使えるようにするモジュール。
      - 2018-08-15
+   * - `7zca.dll <http://toro.d.dooo.jp/slplugin.html>`_
+     - 0.4
+     - 7-Zipに入っている7z.dllを使った 7z等の書庫の展開ライブラリ。
+       PPx で使用する定義は書いている。実際に使われているかは不明。
+       7-Zip の 7z.dll を 7z64.dll にしてアーカイバDLLのフォルダへコピーしている。
+     - 2020-01-13
    * - `bregonig.dll <http://homepage3.nifty.com/k-takata/>`_
      - 4.20 x64
      - Paper Plane xUI で正規表現を使えるようにする。
@@ -54,10 +60,10 @@ Update はソフトウェアがバージョンアップされた日ではなく�
      - Paper Plane xUI で Migemo を使うため。
      - 2011-12-24
    * - `FastCopy <http://www.ipmsg.org/tools/fastcopy.html>`_
-     - 3.85 x64
+     - 3.86 x64
      - | 大量ファイルの削除時に使用。
        | 削除確認は PPx 側でダイアログを出して、実行時には /no_confirm_del を指定。
-     - 2019-10-31
+     - 2020-02-01
    * - `FreeFileSync <http://freefilesync.sourceforge.net/>`_
      - 10.15
      - ファイルのバックアップ。
@@ -104,6 +110,11 @@ Update はソフトウェアがバージョンアップされた日ではなく�
      - 1.12
      - ジャンクション、シンボリックリンクなどを表示する。
      - 2013-06-08
+   * - `ghq <https://github.com/motemen/ghq>`_
+     - v1.0.0
+     - | peco と連携して vim プラグイン、golang リポジトリを検索、移動
+       | install: go get -u -ldflags -s github.com/motemen/ghq
+     - 2020-01-05
 
 
 .. list-table:: デフラグ
@@ -198,24 +209,29 @@ Update はソフトウェアがバージョンアップされた日ではなく�
      - Version
      - Comment
      - Update
+   * - `Git for Windows <https://gitforwindows.org/>`_
+     - 2.26.0
+     - MSYS の Git は UNIX-like path を要求して https://github.com/rhysd/git-messenger.vim をうまく動かせなかったので MSYS からこちらに切り替えてみる。
+       install
+
+       #. .. image:: _image/git_01.png
+       #. .. image:: _image/git_02.png
+       #. .. image:: _image/git_03.png
+       #. .. image:: _image/git_04.png
+       #. .. image:: _image/git_05.png
+
+     - 2020-04-12
    * - `Fork <https://git-fork.com/>`_
-     - 1.41.1
+     - 1.47.0
      - Git の GUI クライアント
        hank の一部を選択すると、そこだけ stage できるのがとても便利。
-     - 2019-11-02
+     - 2020-03-28
    * - `TortoiseHg <https://bitbucket.org/tortoisehg/thg/downloads>`_
-     - 5.0.2 x64
+     - 4.9.1 x64
      - GUI の Workbench を使う。
        Vim で python27.dll が認識されて gista が動かなくなるのでインストール後にパスから外している。
-     - 2019-07-23
-   * - `SourceTree <https://www.sourcetreeapp.com/>`_
-     - 3.1.3
-     - Git の GUI クライアント
-     - 2019-05-26
-   * - `lazygit <https://github.com/jesseduffield/lazygit>`_
-     - 0.8.1
-     - Git の TUI クライアント
-     - 2019-06-27
+       5.0.2 で hg-git が動かなかったので 4.9.1 へ戻した。
+     - 2019-09-01
 
 
 システム関係
@@ -271,11 +287,11 @@ Update はソフトウェアがバージョンアップされた日ではなく�
        駄目人間化。
      - 2019-07-24
    * - `nyagos <https://github.com/zetamatta/nyagos/>`_
-     - 4.4.5_2 64bit
+     - 4.4.5_4 64bit
      - コマンドラインシェル。UNC が扱えるので、Mercurial と一緒に使えないか試してみる。
        最近は PowerShell を使い始めた。 [2016-03-12]
        nyagos に戻ってきた。 [2016-09-08]
-     - 2019-10-26
+     - 2020-03-15
    * - `TaskSchedulerView <http://www.nirsoft.net/utils/task_scheduler_view.html>`_
      - 1.30
      - タスクスケジューラの一覧表示
@@ -285,10 +301,6 @@ Update はソフトウェアがバージョンアップされた日ではなく�
      - 1.66
      - サービスの一覧。設定変更の差分確認をする際に使用する。
      - 2016-05-01
-   * - `PowerToys <https://github.com/microsoft/PowerToys>`_
-     - 0.11.0
-     - FancyZones: 画面分割の利用
-     - 2019-09-07
    * - `RunKan <http://www2.osk.3web.ne.jp/~sm/besrk/besrk.html>`_
      - 1.21
      - コマンドプロンプトなどを管理者権限起動。
@@ -322,15 +334,15 @@ Update はソフトウェアがバージョンアップされた日ではなく�
      - Comment
      - Update
    * - `Vivaldi <https://vivaldi.com/?lang=ja_JP>`_
-     - 2.9.1705.41 x64
+     - 2.11.1811.47 x64
      - Chromium 派生 Web ブラウザ。
        Cyberfox から移行してきた。
-     - 2019-11-08
+     - 2020-03-05
    * - `Firefox <http://mozilla.jp/firefox/>`_
-     - 70.0
+     - 73.0
      - Web ブラウザ。
        サブブラウザを Firefox に戻した。 [2018-01-21]
-     - 2019-10-31
+     - 2020-02-12
    * - `WWWC <http://www.nakka.com/>`_
      - 1.1.2
      - Web ページの更新チェック。
@@ -352,7 +364,8 @@ Update はソフトウェアがバージョンアップされた日ではなく�
    * - `PuTTY <http://www.chiark.greenend.org.uk/~sgtatham/putty/>`_
      - 0.68
      - `coLinux の Ubuntu へのアクセスで使用。`:strike:
-       Mercurial で Bitbucket へアクセスする際に plink を使用。
+       `Mercurial で Bitbucket へアクセスする際に plink を使用。`:strike:
+       Git で Github へアクセスする際に plink を使用。
      - 2017-02-22
    * - `CarotDAV <http://rei.to/carotdav.html>`_
      - 1.14.6
@@ -389,11 +402,16 @@ Update はソフトウェアがバージョンアップされた日ではなく�
      - 2.1
      - クリップボードの履歴とったり定型文を挿入したり。
      - 2018-09-29
+   * - `CLCL <https://www.nakka.com/soft/clcl/>`_
+     - 2.1.0
+     - | クリップボードの履歴とったり定型文を挿入したり。
+       | 画像も履歴が取れるのが良いところであり、履歴ファイルが膨れ上がるのが気になるところでもある。
+     - 2019-12-15
    * - `Sumatra PDF <http://blog.kowalczyk.info/software/sumatrapdf/>`_
      - 3.1.2 x64
      - PDFリーダー。読んだ位置を記憶してくれる。
      - 2016-08-19
-   * - `xdoc2txt <http://www31.ocn.ne.jp/~h_ishida/xdoc2txt.html>`_
+   * - `xdoc2txt <http://ebstudio.info/home/xdoc2txt.html>`_
      - 2.19.1 x64
      - 各種バイナリ文書からテキストを抽出する。
        WinMerge, Vim で使用中。
@@ -404,11 +422,11 @@ Update はソフトウェアがバージョンアップされた日ではなく�
        Vim で使えるかと思ったけど工夫がいりそう。
      - 2019-03-04
    * - `pdfcpu <https://github.com/pdfcpu/pdfcpu>`_
-     - 0.2.5 + dc388b8
+     - 0.3.2
      - PDF の編集をするコマンドラインツール。
-     - 2019-11-10
+     - 2020-01-15
    * - `WinMerge <http://www.geocities.co.jp/SiliconValley-SanJose/8165/winmerge.html>`_
-     - 2.16.4+-jp-7 x64
+     - 2.16.6+-jp-1 x64
      - | ファイルの比較。
        | 差分内容によって綺麗に色分けしてくれる。
        | こちらは文字コードの自動判別もしてくれる。
@@ -416,7 +434,7 @@ Update はソフトウェアがバージョンアップされた日ではなく�
        | 2.3.3.1-jp-1 からは、設定の「複数のインスタンスを起動しない」を選択することができるようになった。
        | MergePlugins から amb_xdocdiffPlugin.dll 以外を移動。プラグインが自動展開になっているので、色々と入っていると自動で動いてしまう。たまにエラーメッセージが出たりしていた。
        | MergePlugins の中身は移動せず xdocdiffPlugin.dll を追加する運用にしてみる。 [2019-11-02]
-     - 2019-11-02
+     - 2020-03-03
    * - `xdocdiff WinMerge Plugin 64bit <http://crus.mydns.jp/xdocdiffPlugin64/>`_
      - 1.0.6 64bit
      - Winmerge で Word, Excel, PowerPoint, pdf その他の比較が行えるようにするプラグイン。
@@ -443,6 +461,10 @@ Update はソフトウェアがバージョンアップされた日ではなく�
        | 出力の文字コードがファイルの文字コードになるよう。指定できないものだろうか？ [2018-08-04]
        | 文字コードが色々なファイルをまとめて grep はできないので pt に戻った。 [2019-09-11]
      - 2019-08-09
+   * - `Sphinx <http://www.sphinx-doc.org/ja/master/index.html>`_
+     - 3.0.0
+     - reStructuredText を HTML に変換
+     - 2020-04-07
    * - `Pandoc <http://johnmacfarlane.net/pandoc/>`_
      - 2.7.3
      - | 文書の変換
@@ -462,14 +484,14 @@ Update はソフトウェアがバージョンアップされた日ではなく�
      - Comment
      - Update
    * - `Vim <https://github.com/vim/vim-win32-installer/releases>`_
-     - 8.1.2291
+     - 8.2.0539
      - | デフォルトエディタ。xyzzy から移行。
        | 7.3.1203はうまく動かなかった。Lingrが動かなかったのと、やっぱり色々と問題がありそう。
        | `8.0.0596-20170502 は gvim -c GrepWrap で <t_<fd>`> が入力されたので前のバージョンに戻した。 [2017-05-21]`:strike:
        | `gvim -c GrepWrap で <t_<fd>a> が入力されるが気にせず使っている。 [2017-11-30]`:strike: develop 8.0.1376 で改善されていた。 [2017-12-11]
        | 8.1.1234 から system() の結果がテンポラリファイルから取れない場合があるみたい。dein の自動リキャッシュ（？）時に発生 [2019-05-01]
        | この件 8.1.1350 でも解決しなかったので、自動リキャッシュが発生しないように dein に手を入れた。 [2019-05-19]
-     - 2019-11-16
+     - 2020-04-10
    * - `cmigemo <https://www.kaoriya.net/software/cmigemo/>`_
      - 2011-02-27
      - Vim の easymotion で使用する。
@@ -553,10 +575,10 @@ Update はソフトウェアがバージョンアップされた日ではなく�
      - Comment
      - Update
    * - `foobar2000 <http://foobar2000.hydrogenaudio.org/>`_
-     - 1.4.8
+     - 1.5.3
      - BGM として TAK, Ogg Vorbis, MP3, WMA などの再生をさせている。
        プレイリストが削除されることがある。最後の発生は 0.9.5.5。
-     - 2019-09-22
+     - 2020-04-04
    * - `foo_input_tak <http://www.foobar2000.org/components/view/foo_input_tak>`_
      - 0.4.8
      - TAK の再生。
@@ -589,12 +611,12 @@ Update はソフトウェアがバージョンアップされた日ではなく�
      - Comment
      - Update
    * - `Exact Audio Copy <http://www.exactaudiocopy.de/>`_
-     - 1.3
+     - 1.5
      - 音楽 CD からの wave 吸出し。
        CDImage を取り出して TAK へ。
        0.95 beta 4 だと TOC の取得はできなくなったんだっけ？
        CCCD などを使うときは前のバージョンを使おう。
-     - 2016-09-05
+     - 2020-02-25
    * - `TAK <http://www.thbeck.de/Tak/Tak.html>`_
      - 2.3.0
      - 圧縮率とエンコード、デコード時間がそこそこに良いロスレスコーデック。
@@ -631,11 +653,11 @@ Update はソフトウェアがバージョンアップされた日ではなく�
        たいてい OptiPNG よりも縮む。そのかわり時間もかかる。適当に比べてみたら -o7 の 5 倍くらい。
      - 2010-03-27
    * - `pingo <https://css-ig.net/pingo>`_
-     - 0.98.48
+     - 0.99 RC2
      - PNG のサイズを小さくする。
        PNGOUT ほどは縮まないみたい。（s9 で比べると違うのかも）
        かなり縮むしかなり高速。
-     - 2019-01-19
+     - 2020-04-07
    * - `Graphviz <http://www.graphviz.org/>`_
      - 2.38
      - | グラフ構造の整形、描画、編集システム。
@@ -727,17 +749,17 @@ Update はソフトウェアがバージョンアップされた日ではなく�
        zip ファイルを扱うために `axzipx.spi <http://www.geocities.jp/gis2lel/sw/index.html>`_ をインストール。
      - 2013-12-21
    * - `IrfanView <http://www.irfanview.com/>`_
-     - 4.50 64bit
+     - 4.54 64bit
      - 軽いグラフィックビューア。
        プラグインで色々なファイル形式に対応。
        `NKV よりもマシだけれど縮小が綺麗じゃない。`:strike: バージョン 4.00 で View - Display options (window mode) - Use "Resample" for fitting (better quality) を選択すると綺麗になった。前のバージョンでも設定していれば綺麗になったのかな？。
        `日本語モジュール <http://park15.wakwak.com/~yu-ki/>`_ 、 `日本語版 <http://www8.plala.or.jp/kusutaku/>`_
-       最近は MassiGra しか使っていない。
-     - 2017-10-28
+       最近は MassiGra しか使っていないけれど、サブとして入れている。
+     - 2019-12-25
    * - `PlantUML <http://ja.plantuml.com/>`_
-     - 1.2019.11
+     - 1.2020.6
      - シーケンス図とかを描く。
-     - 2019-09-23
+     - 2020-04-06
 
 
 .. list-table:: Susie Plug-in
@@ -788,10 +810,10 @@ Update はソフトウェアがバージョンアップされた日ではなく�
      - デスクトップキャプチャ
      - 2014-07-30
    * - `LosslessCut <https://github.com/mifi/lossless-cut>`_
-     - 2.4.0
+     - 3.0.1
      - Youtube の動画の不要部分を無劣化で取り除く。
        シンプルなので Avidemux から移行。
-     - 2019-08-20
+     - 2020-02-17
    * - `ffmpeg <https://ffmpeg.zeranoe.com/builds/>`_
      - 4.2
      - 音声の抜き出しとか。
@@ -823,48 +845,17 @@ Update はソフトウェアがバージョンアップされた日ではなく�
        Home Cinema x64 1.5.3.3704 henry は再生が遅くなったりしたので使うのやめ。
      - 2016-05-07 / 2012-12-17
    * - `mpv <https://sourceforge.net/projects/mpv-player-windows/files/>`_
-     - x86_64-20190820-git-80552ab
+     - 0.32.0+ (77a74d9)
      - | 動画再生。mplayer から切り替え。
-       | Windows7 で関連付け。設定したつもりでも記憶してくれないので。
-
-       .. code-block:: none
-
-         Windows Registry Editor Version 5.00
-
-         [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.flv\UserChoice]
-         "Progid"="Applications\\mpv.exe"
-
-         [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.m4a\UserChoice]
-         "Progid"="Applications\\mpv.exe"
-
-         [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.mp3\UserChoice]
-         "Progid"="Applications\\mpv.exe"
-
-         [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.ogg\UserChoice]
-         "Progid"="Applications\\mpv.exe"
-
-         [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.mp4\UserChoice]
-         "Progid"="Applications\\mpv.exe"
-
-         [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.rm\UserChoice]
-         "Progid"="Applications\\mpv.exe"
-
-         [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.wmv\UserChoice]
-         "Progid"="Applications\\mpv.exe"
-
-         [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.wav\UserChoice]
-         "Progid"="Applications\\mpv.exe"
-
-       | Windows10 は普通に関連付けできる。
        | 2016-11-20 は WMV の再生がおかしかった。映像が出ない。 [2016-12-04]
        | バイナリ取得サイトを変更 http://mpv.srsfckn.biz/ -> https://sourceforge.net/projects/mpv-player-windows/files/ [2018-07-24]
-     - 2019-08-25
+     - 2020-02-07
    * - `youtube-dl <https://rg3.github.io/youtube-dl/>`_
-     - 2019.08.02
+     - 2020.03.24
      - youtube を mpv で再生。
        youtube の動画を DL。
        Microsoft Visual C++ 2010 Redistributable Package (x86) （not x64）が必要。
-     - 2019-08-10
+     - 2020-04-12
    * - `MPC-BE <https://sourceforge.net/projects/mpcbe/>`_
      - 1.5.1 x64
      - MPCHC の改訂版。
@@ -898,25 +889,40 @@ Update はソフトウェアがバージョンアップされた日ではなく�
      - Comment
      - Update
    * - `Python <http://www.python.org/>`_
-     - 64 bit 3.7.5
+     - 64 bit 3.8.1
      - | メインの LL。
        | `Vim プラグインの Gista は 2.7 が入っていないと保存時にエラーになる。なぜだ？ [2017-05-14]`:strike:
        | TortoiseHg の python27.dll が Python 2.7 として認識されていた。TortoiseHg のパスをはずした。 [2018-02-03]
        | neovim が pynvim になって Windows の 3.7 でも使えるようになったので 3.6 は削除。 [2019-02-23]
        | 会社の PC が 64 bit になったので 32 bit は削除。 [2019-04-21]
-     - 2019-10-20
+     - 2020-02-01
    * - `go <http://golang.org/>`_
-     - 1.13.4 64bit
+     - 1.14.2 64bit
      - go
-     - 2019-11-02
+     - 2020-04-09
+   * - `goimports <https://github.com/golang/tools/tree/master/cmd/goimports>`_
+     - 2019-12-17 621d4eef
+     - Fast gofmt
+       Install: go get -u -ldflags -s -v golang.org/x/tools/cmd/goimports
+     - 2020-01-03
+   * - `gopls <https://github.com/golang/tools/tree/master/gopls>`_
+     - v0.1.7
+     - | Vim + coc.nvim から呼び出して使用。
+       | Install: GO111MODULE=on go get -ldflags -s golang.org/x/tools/gopls@latest
+       | v0.2* はうまく動かなかった。 [2019-12-08]
+     - 2019-12-08
    * - `Node.js <https://nodejs.org/ja/>`_
      - 10.15.3 LTS
      - textlint や plantuml-syntax-test で使用。
      - 2019-04-27
-   * - `universal ctags <https://github.com/universal-ctags/ctags>`_
-     - 2017-10-20/8465ce77
+   * - `universal ctags <https://github.com/universal-ctags/ctags-win32>`_
+     - 2019-12-12/f42b573f
      - tags ファイルを作成して Vim で使用
-     - 2017-10-20
+     - 2019-12-13
+   * - `efm-langserver <https://github.com/mattn/efm-langserver>`_
+     - 2020-03-11 90adbf
+     - Vim で vint を実行
+     - 2020-03-15
 
 
 辞書
@@ -931,28 +937,15 @@ Update はソフトウェアがバージョンアップされた日ではなく�
      - Comment
      - Update
    * - `PDIC/Unicode <http://homepage3.nifty.com/TaN/>`_
-     - 5.10.69
+     - 5.10.70
      - `英辞郎2 <http://www.amazon.co.jp/dp/4757408382/>`_ を使って英語辞書として使っている。
        PDIC/Unicode の発音記号フォントは、 `Doulos SIL Font Home <http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&amp;item_id=DoulosSILfont>`_ を使う。
-     - 2019-11-02
+     - 2020-01-03
    * - `EBWin <http://www31.ocn.ne.jp/~h_ishida/EBPocket.html>`_
-     - 4.7.3 64bit / 3.06 Unicode
+     - 4.7.7 64bit / 3.06 Unicode
      - EPWING などの辞書データから辞書引きできるソフト。
        今は広辞苑のために使っている。
-       ebzip 形式の圧縮したデータも使える。
-       2.08 から PDIC 辞書が使えるようになった。
-       発音用のフォントには Lucida Sans Unicode を指定している。
-       Craftlaunch へ以下のように登録して使っている。
-
-       .. code-block:: none
-
-         cmd EBWin
-         -L C:\EBWin\EBWin.exe
-         -A /G=EBPOCKET /S=%arg /#=0 /C=0
-         -L C:\EBWin
-
-       C# で書かれた EBWin 4.0 が登場。
-     - 2019-11-02 / 2012-05-18
+     - 2020-03-04 / 2012-05-18
    * - `Lingoes <http://www.lingoes.net/en/>`_
      - 2.9.1
      - ポップアップ辞書。
@@ -1006,34 +999,27 @@ kobo
      - ソフトの起動や操作。
      -
    * - `KeePassXC <https://keepassxc.org/>`_
-     - 2.5.0
+     - 2.5.3 64bit Portable
      - オープンソースでクロスプラットフォームのパスワード管理ソフト。
        KeePass のバージョン 2 への移行をしていなかったけど、こちらにしてみた。
-     - 2019-10-27
-   * - `KeePass <http://keepass.sourceforge.net/>`_
-     - 1.37
-     - オープンソースのパスワード管理ソフト。
-       パスワードやユーザ名をコピーして使うには不便なインタフェースだと思っていたけれど、ショートカットキーが使えるのでそうでもなかった。
-       Ctrl + V でユーザ ID、パスワードの貼り付けができるが、うまく動かないこともあるため使わないように設定する（ユーザ ID をコピーする Ctrl + B とたまに間違えることがあるので）
-       Tools - Options - Advanced - Auto-Type - Enable auto-type features のチェックを外す。
-     - 2019-01-03
+     - 2020-01-07
    * - `家計簿，出納簿ひかる <http://www.kensoft.co.jp/>`_
      - 9.60
      - 家計簿。
        たまにグラフ表示をして生活を振り返ってみる。
      - 2017-12-13
    * - `JRE <http://www.oracle.com/technetwork/java/javase/downloads/index.html>`_
-     - 1.8.0.221 32bit, 64bit
+     - 1.8.0.241 32bit, 64bit
      - Java のランタイム。
        インストール後に、コントロールパネルから Java を開いて、「アップデート」-「アップデートを自動的にチェック」のチェックを外す。
        ``HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run`` に追加される ``"C:\Program Files\Java\jre6\bin\jusched.exe"`` を削除。
-     - 2019-07-20
+     - 2020-02-01
    * - `Freeplane <http://sourceforge.net/apps/mantisbt/freeplane/my_view_page.php>`_
-     - 1.7.10
+     - 1.8.1 pre06
      - マインドマップを書くためのツール。
        FreeMind の改造版。
        いくつか嬉しい機能がある。
-     - 2019-10-26
+     - 2020-03-22
    * - `conim <http://site-clue.statice.jp/>`_
      - 3.00
      - 16 進表記の色を作成したり、画面から取ってきたり。
@@ -1160,12 +1146,14 @@ kobo
      - | Git とか unix ツールとか
        | ``ssh -p portNumber username@hostname``
        | ``pacman -Syu``
+       | Git for Windows だけで満足できるか試してみる [2020-04-12]
      - 2015-07-13
    * - `peco <https://github.com/peco/peco>`_
-     - 0.5.3
-     - PPx のタブ切り替えのために 使用
-       起動が遅くなったので go get -u -ldflags -s github.com/peco/peco/cmd/peco でビルド [2018-03-18]
-     - 2018-03-18
+     - 0.5.7
+     - PPx のタブ切り替えのために 使用。
+       Install: go get -u -ldflags -s github.com/peco/peco/cmd/peco [2018-03-18]
+       Defender の例外にも登録。
+     - 2020-01-11
    * - `Docker Toolbox <https://www.docker.com/products/docker-toolbox>`_
      - 17.03.1-ce
      - Docker
@@ -2310,4 +2298,27 @@ kobo
      - マウスカーソルに IME のオン状態を表示。
      - Vivaldi での状態表示がうまくいかない
      - 2019-06-27
+   * - `PowerToys <https://github.com/microsoft/PowerToys>`_
+     - 0.11.0
+     - FancyZones: 画面分割の利用
+     - 使わない。
+     - 2019-09-07
+   * - `lazygit <https://github.com/jesseduffield/lazygit>`_
+     - 0.8.1
+     - Git の TUI クライアント
+     - 表示がくずれるので使わない。
+     - 2019-06-27
+   * - `SourceTree <https://www.sourcetreeapp.com/>`_
+     - 3.1.3
+     - Git の GUI クライアント
+     - Fork に移行
+     - 2019-05-26
+   * - `KeePass <http://keepass.sourceforge.net/>`_
+     - 1.37
+     - オープンソースのパスワード管理ソフト。
+       パスワードやユーザ名をコピーして使うには不便なインタフェースだと思っていたけれど、ショートカットキーが使えるのでそうでもなかった。
+       Ctrl + V でユーザ ID、パスワードの貼り付けができるが、うまく動かないこともあるため使わないように設定する（ユーザ ID をコピーする Ctrl + B とたまに間違えることがあるので）
+       Tools - Options - Advanced - Auto-Type - Enable auto-type features のチェックを外す。
+     - KeePassXC へ移行。
+     - 2019-01-03
 
