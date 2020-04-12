@@ -481,26 +481,34 @@ Vim plugins
      -
      -
    * - mattn/vim-fz
-     - using
+     - delete
      - gof を呼び出してファイルを開く
-     - 2020-02-05
+       入力なしで ESC を押すと完全にキャンセルされずに Terminal が残ってしまうことがあるので使うのをやめた。
+       設定のせいかな？
+     - 2020-04-12
    * - liuchengxu/vim-clap
      - delete
      - 更新すると、まだよく動かなくなることがあるので CtrlP へ戻った。
-     -
+       CtrlP より若干起動が遅い。
+     - 2020-01-03
    * - hokorobi/vim-clap-sessions
      - delete
-     -
-     -
+     - vim-clap を削除したので一緒に削除。
+     - 2020-01-03
    * - hokorobi/vim-clap-launcher
      - delete
-     -
-     -
+     - vim-clap を削除したので一緒に削除。
+     - 2020-01-03
    * - hokorobi/vim-clap-filelist
      - delete
      - vim-clap でファイル一覧を含んだファイルを候補に使用する provider。
-       g:clap_provider_mru などを定義して source にファイルを読み込めばよいと分かったので使わなくなった。
+       ``g:clap_provider_mru`` などを定義して source にファイルを読み込めばよいと分かったので使わなくなった。
      - 2019-11-13
+   * - Yggdroot/LeaderF
+     - todo
+     - フィルタリングプラグイン。
+       Python を使用しているため、 Windows では起動がちょっと遅そうでまだ試していない。
+     - 2020-04-12
    * - tyru/vim-altercmd
      -
      -
