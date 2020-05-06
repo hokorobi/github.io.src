@@ -247,7 +247,7 @@ Vim plugins
      - delete
      - 必要な時だけ :. 相当の表示になるのが好みなので buftabline を使うように戻した。
      - 2019-10-26
-   * - lightline-bufferline
+   * - mengelbrecht/lightline-bufferline
      - delete
      - こちらも buftabline の方が好みだった。
      - 2019-10-24
@@ -354,17 +354,23 @@ Vim plugins
      -
      -
    * - lambdalisue/vim-findent
-     -
-     -
-     -
+     - using
+     - 開いたファイルのインデントに従って Vim のインデントを設定する
+     - 2020-04-18
    * - machakann/vim-swap
      -
      -
      -
    * - kana/vim-niceblock
-     -
-     -
-     -
+     - using
+     - 選択した行すべてに対して I, A を反映させる。
+     - 2020-04-18
+   * - chrisbra/NrrwRgn
+     - delete
+     - 選択した範囲だけ編集対象とする。
+       Vim だと標準で同じようなことができるのでいらなさそう。
+       便利な場合もあるんだろうな。
+     - 2020-04-18
    * - unblevable/quick-scope
      - delete
      - f, F, t, T でハイライトしてくれる。ルールがよくわからなくて、まともに使っていない。
@@ -374,9 +380,20 @@ Vim plugins
      -
      -
    * - haya14busa/vim-edgemotion
-     -
-     -
-     -
+     - using
+     - 縦方向の端に移動
+     - 2020-04-18
+   * - tyru/columnskip.vim
+     - delete
+     - edgemotion に近いけど、空白に対してだけスキップ。
+       インデントの途中なら、インデントの区切りの位置に移動するのかと思ったけど、違うみたい。
+       Vim の設定のせい？
+       これなら edgemotion の方が好み。
+     - 2020-04-18
+   * - machakann/vim-columnmove
+     - using
+     - f t F T ; , w b e ge W B E gE を縦方向に使える。
+     - 2020-04-18
    * - pechorin/any-jump.vim
      - todo
      - 定義にジャンプできるらしい。
@@ -399,6 +416,11 @@ Vim plugins
      -
      -
      -
+   * - osyo-manga/vim-operator-stay-cursor
+     - using
+     - yank でカーソル移動をさせない。
+       nnoremap y y`> だと不十分なことがあったので。
+     - 2020-04-14
    * - mhinz/vim-sayonara
      -
      -
@@ -408,9 +430,10 @@ Vim plugins
      -
      -
    * - ap/vim-buftabline
-     -
-     -
-     -
+     - using
+     - tabline にバッファを羅列する。タブがある場合はタブを表示。
+       同名のバッファがある場合は親ディレクトリも表示。
+     - 2020-05-02
    * - mg979/vim-xtabline
      - delete
      - タブを扱えるのは良いけれど、それ以外は buftabline の方がよさそう。機能過剰。
@@ -483,9 +506,8 @@ Vim plugins
    * - mattn/vim-fz
      - delete
      - gof を呼び出してファイルを開く
-       入力なしで ESC を押すと完全にキャンセルされずに Terminal が残ってしまうことがあるので使うのをやめた。
-       設定のせいかな？
-     - 2020-04-12
+       Gvim が固まることがあったので、ひとまず使うのをやめた。
+     - 2020-04-16
    * - liuchengxu/vim-clap
      - delete
      - 更新すると、まだよく動かなくなることがあるので CtrlP へ戻った。
@@ -637,3 +659,4 @@ Vim plugins
      - pt を使って grep を実行。
        grepprg に pt を設定した場合に比べての利点がわからないので一旦削除
      - 2020-02-11
+
