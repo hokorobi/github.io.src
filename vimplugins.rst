@@ -112,9 +112,9 @@ Vim plugins
      -
      -
    * - machakann/vim-textobj-delimited
-     - using
-     -
-     -
+     - delete
+     - , 区切りの文字の textobj として使っていたけど、vim-swap で代用できることがわかったので削除。
+     - 2020-05-17
    * - tommcdo/vim-exchange
      - using
      -
@@ -228,21 +228,23 @@ Vim plugins
      -
      -
    * - hokorobi/vim-changelog-alt
-     -
-     -
-     -
+     - delete
+     - 本体同梱の changelog プラグインを自分好みにしようとしたけど、大して帰るところがなかったので削除。
+     - 2020-05-11
    * - rhysd/vim-color-spring-night
-     -
-     -
-     -
+     - using
+     - colorscheme. iceberg -> spring-night
+       italic, bold は無効にしている。
+     - 2020-05-11
    * - yasukotelin/shirotelin
      - delete
      - ネタとしては好きだけど、常用するにはちょっと辛く感じた。
      - 2019-11-30
    * - itchyny/lightline.vim
-     -
-     -
-     -
+     - using
+     - statusline に色々表示。
+       tabline は非表示にしている。
+     - 2020-05-11
    * - taohexxx/lightline-buffer
      - delete
      - 必要な時だけ :. 相当の表示になるのが好みなので buftabline を使うように戻した。
@@ -252,9 +254,9 @@ Vim plugins
      - こちらも buftabline の方が好みだった。
      - 2019-10-24
    * - osyo-manga/vim-anzu
-     -
-     -
-     -
+     - using
+     - incremental search の現在のマッチ位置を表示。
+     - 2020-05-11
    * - MattesGroeger/vim-bookmarks
      - delete
      - ファイルの位置をブックマークしてくれる
@@ -267,31 +269,31 @@ Vim plugins
        使わないので削除。
      - 2020-02-18
    * - itchyny/vim-cursorword
-     -
+     - using
      -
      -
    * - andymass/vim-matchup
-     -
+     - using
      -
      -
    * - t9md/vim-quickhl
-     -
+     - using
      -
      -
    * - markonm/traces.vim
-     -
+     - using
      -
      -
    * - liuchengxu/vista.vim
-     -
+     - using
      -
      -
    * - cohama/lexima.vim
-     -
+     - using
      -
      -
    * - machakann/vim-highlightedyank
-     -
+     - using
      -
      -
    * - kana/vim-operator-replace
@@ -300,23 +302,23 @@ Vim plugins
        レジスタが変わらないのでドットリピートできるけど、そのような使い方はしないかな。
      - 2020-04-01
    * - uplus/vim-clurin
-     -
+     - using
      -
      -
    * - tpope/vim-speeddating
-     -
+     - using
      -
      -
    * - junegunn/vim-easy-align
-     -
+     - using
      -
      -
    * - mbbill/undotree
-     -
+     - using
      -
      -
    * - osyo-manga/vim-jplus
-     -
+     - using
      -
      -
    * - hokorobi/yankround.vim
@@ -329,15 +331,15 @@ Vim plugins
        yankround.vim + sub-mode で実現していることが単体でできそう。
      - 2020-04-02
    * - deris/vim-rengbang
-     -
+     - using
      -
      -
    * - ntpeters/vim-better-whitespace
-     -
-     -
-     -
+     - using
+     - 末尾スペースを探すときに実行。
+     - 2020-05-17
    * - thinca/vim-template
-     -
+     - using
      -
      -
    * - mattn/vim-sonictemplate
@@ -346,11 +348,11 @@ Vim plugins
        snippet のようにテンプレートを展開。
      - 
    * - deris/vim-pasta
-     -
+     - using
      -
      -
    * - nocd5/ExpandSerialNumber.vim
-     -
+     - using
      -
      -
    * - lambdalisue/vim-findent
@@ -358,9 +360,9 @@ Vim plugins
      - 開いたファイルのインデントに従って Vim のインデントを設定する
      - 2020-04-18
    * - machakann/vim-swap
-     -
-     -
-     -
+     - using
+     - , 区切りの要素の入れ替え、ソート、textobj
+     - 2020-05-17
    * - kana/vim-niceblock
      - using
      - 選択した行すべてに対して I, A を反映させる。
@@ -376,7 +378,7 @@ Vim plugins
      - f, F, t, T でハイライトしてくれる。ルールがよくわからなくて、まともに使っていない。
      - 2020-02-20
    * - easymotion/vim-easymotion
-     -
+     - using
      -
      -
    * - haya14busa/vim-edgemotion
@@ -405,15 +407,15 @@ Vim plugins
 
      - 2020-04-07
    * - haya14busa/vim-asterisk
-     -
+     - using
      -
      -
    * - osyo-manga/vim-milfeulle
-     -
+     - using
      -
      -
    * - hokorobi/vim-smarthome
-     -
+     - using
      -
      -
    * - osyo-manga/vim-operator-stay-cursor
@@ -422,11 +424,11 @@ Vim plugins
        nnoremap y y`> だと不十分なことがあったので。
      - 2020-04-14
    * - mhinz/vim-sayonara
-     -
+     - using
      -
      -
    * - tyru/capture.vim
-     -
+     - using
      -
      -
    * - ap/vim-buftabline
@@ -439,27 +441,27 @@ Vim plugins
      - タブを扱えるのは良いけれど、それ以外は buftabline の方がよさそう。機能過剰。
      - 2019-12-02
    * - tyru/closesubwin.vim
-     -
+     - using
      -
      -
    * - kana/vim-gf-user
-     -
+     - using
      -
      -
    * - kana/vim-gf-diff
-     -
+     - using
      -
      -
    * - justinmk/vim-dirvish
-     -
+     - using
      -
      -
    * - lambdalisue/vim-protocol
-     -
+     - using
      -
      -
    * - mattn/vim-findroot
-     -
+     - using
      -
      -
    * - itchyny/vim-gof
@@ -468,39 +470,39 @@ Vim plugins
        tapi を使っていたので Windows では NG
      - 2020-02-05
    * - ctrlpvim/ctrlp.vim
-     -
+     - using
      -
      -
    * - hokorobi/ctrlp-sessions
-     -
+     - using
      -
      -
    * - mattn/ctrlp-launcher
-     -
+     - using
      -
      -
    * - zeero/vim-ctrlp-help
-     -
+     - using
      -
      -
    * - ivalkeen/vim-ctrlp-tjump
-     -
+     - using
      -
      -
    * - ompugao/ctrlp-locate
-     -
+     - using
      -
      -
    * - tacahiroy/ctrlp-funky
-     -
+     - using
      -
      -
    * - printesoi/ctrlp-filetype.vim
-     -
+     - using
      -
      -
    * - christoomey/ctrlp-generic
-     -
+     - using
      -
      -
    * - mattn/vim-fz
@@ -532,39 +534,39 @@ Vim plugins
        Python を使用しているため、 Windows では起動がちょっと遅そうでまだ試していない。
      - 2020-04-12
    * - tyru/vim-altercmd
-     -
+     - using
      -
      -
    * - kana/vim-altr
-     -
+     - using
      -
      -
    * - thinca/vim-prettyprint
-     -
+     - using
      -
      -
    * - tpope/vim-repeat
-     -
+     - using
      -
      -
    * - mattn/webapi-vim
-     -
+     - using
      -
      -
    * - ynkdir/vim-vimlparser
-     -
+     - using
      -
      -
    * - kana/vim-operator-user
-     -
+     - using
      -
      -
    * - tweekmonster/helpful.vim
-     -
+     - using
      -
      -
    * - lilydjwg/colorizer
-     -
+     - using
      -
      -
    * - tyru/open-browser.vim
@@ -578,11 +580,11 @@ Vim plugins
        使うことがなかったので削除。
      - 2019-09-28
    * - tyru/open-browser-unicode.vim
-     -
+     - using
      -
      -
    * - lambdalisue/vim-gista
-     -
+     - using
      -
      -
    * - mattn/qiita-vim
@@ -591,35 +593,35 @@ Vim plugins
        Qiita に書くことがほとんどなく、書く時も Web ブラウザを使うことが多いので削除。
      - 2019-09-28
    * - fedorenchik/VimCalc3
-     -
+     - using
      -
      -
    * - thinca/vim-submode
-     -
+     - using
      -
      -
    * - lambdalisue/gina.vim
-     -
+     - using
      -
      -
    * - hokorobi/vim-howm-syntax-mini
-     -
+     - using
      -
      -
    * - vim-jp/vital.vim
-     -
+     - delete
      -
      -
    * - lambdalisue/vital-Whisky
-     -
+     - delete
      -
      -
    * - vim-jp/vimdoc-ja
-     -
+     - using
      -
      -
    * - tyru/empty-prompt.vim
-     -
+     - using
      -
      -
    * - LeafCage/vimhelpgenerator
