@@ -48,6 +48,9 @@ extensions.append('sphinx_copybutton')
 extensions.append('sphinxcontrib.trimblank')
 trimblank_keep_alnum_blank = ['html', 'singlehtml']
 
+# 日本語の文字区切りを改善
+extensions.append('sphinx_tsegsearch')
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
