@@ -1,7 +1,7 @@
 Vim plugins
 ===========
 
-.. list-table:: Vim plugins
+.. list-table:: plugin manager
    :header-rows: 1
 
    * - repogitory
@@ -14,7 +14,15 @@ Vim plugins
        | 遅延読み込みが一番カスタマイズできる（はず）
        | 自動キャッシュ更新が無効にできるようになったので、最近は困ることがない。
      - 2020-02-22
-   * - hokorobi/asyncomplete.vim
+
+.. list-table:: completion
+   :header-rows: 1
+
+   * - repogitory
+     - status
+     - comment
+     - date
+   * - prabirshrestha/asyncomplete.vim
      - using
      -
      -
@@ -40,8 +48,13 @@ Vim plugins
      -
    * - prabirshrestha/asyncomplete-neosnippet.vim
      - delete
-     -
-     -
+     - neosnippet を asyncomplete で使う。
+       日本語の後ろで補完候補がずらっと出てきてしまうので削除。 [2020-05-23]
+     - 2020-05-23
+   * - hokorobi/asyncomplete-neosnippet.vim
+     - using
+     - ``let l:kw = matchstr(l:typed, '\w\+$')`` の ``\w`` を ``\k`` に変更してみた。大丈夫そう？
+     - 2020-05-23
    * - prabirshrestha/vim-lsp
      - using
      -
@@ -87,6 +100,14 @@ Vim plugins
      - delete
      - 補完速度が比較的遅いので asyncomplete.vim に移行。
      -
+
+.. list-table:: REPL?
+   :header-rows: 1
+
+   * - repogitory
+     - status
+     - comment
+     - date
    * - thinca/vim-quickrun
      - using
      -
@@ -99,6 +120,14 @@ Vim plugins
      - using
      - REPL。ほとんど使っていない。
      - 2020-03-22
+
+.. list-table:: text object
+   :header-rows: 1
+
+   * - repogitory
+     - status
+     - comment
+     - date
    * - kana/vim-textobj-user
      - using
      -
@@ -131,14 +160,14 @@ Vim plugins
      - using
      -
      -
-   * - tyru/caw.vim
-     - using
-     -
-     -
-   * - tsuyoshicho/plantuml-previewer.vim
-     - using
-     -
-     -
+
+.. list-table:: filetype
+   :header-rows: 1
+
+   * - repogitory
+     - status
+     - comment
+     - date
    * - AndrewRadev/linediff.vim
      - using
      -
@@ -201,6 +230,11 @@ Vim plugins
      -
    * - hokorobi/plantuml-syntax
      - using
+     - | aklt/plantuml-syntax の fork。
+       | 色々といじって PR を送っている。
+     - 2020-05-23
+   * - tsuyoshicho/plantuml-previewer.vim
+     - using
      -
      -
    * - cespare/vim-toml
@@ -231,6 +265,17 @@ Vim plugins
      - delete
      - 本体同梱の changelog プラグインを自分好みにしようとしたけど、大して帰るところがなかったので削除。
      - 2020-05-11
+   * - hokorobi/vim-howm-syntax-mini
+     - using
+     -
+     -
+.. list-table:: colorscheme
+   :header-rows: 1
+
+   * - repogitory
+     - status
+     - comment
+     - date
    * - rhysd/vim-color-spring-night
      - using
      - colorscheme. iceberg -> spring-night
@@ -240,6 +285,14 @@ Vim plugins
      - delete
      - ネタとしては好きだけど、常用するにはちょっと辛く感じた。
      - 2019-11-30
+
+.. list-table:: view
+   :header-rows: 1
+
+   * - repogitory
+     - status
+     - comment
+     - date
    * - itchyny/lightline.vim
      - using
      - statusline に色々表示。
@@ -367,6 +420,10 @@ Vim plugins
      - using
      - 選択した行すべてに対して I, A を反映させる。
      - 2020-04-18
+   * - da-x/name-assign.vim
+     - todo
+     - 選択した範囲を変数に変えて、その変数の定義を追加する。
+     - 2020-05-23
    * - chrisbra/NrrwRgn
      - delete
      - 選択した範囲だけ編集対象とする。
@@ -421,7 +478,7 @@ Vim plugins
    * - osyo-manga/vim-operator-stay-cursor
      - using
      - yank でカーソル移動をさせない。
-       nnoremap y y`> だと不十分なことがあったので。
+       ``nnoremap y y`>`` だと不十分なことがあったので。
      - 2020-04-14
    * - mhinz/vim-sayonara
      - using
@@ -464,6 +521,14 @@ Vim plugins
      - using
      -
      -
+
+.. list-table:: selector
+   :header-rows: 1
+
+   * - repogitory
+     - status
+     - comment
+     - date
    * - itchyny/vim-gof
      - delete
      - mattn/gof を呼び出してファイル表示など。
@@ -533,6 +598,19 @@ Vim plugins
      - フィルタリングプラグイン。
        Python を使用しているため、 Windows では起動がちょっと遅そうでまだ試していない。
      - 2020-04-12
+   * - prabirshrestha/quickpick.vim
+     - todo
+     - フィルタリングプラグイン。
+       vim-lsp と連携するプラグイン prabirshrestha/quickpick-lsp.vim があるみたい。
+     - 2020-05-24
+
+.. list-table:: misc
+   :header-rows: 1
+
+   * - repogitory
+     - status
+     - comment
+     - date
    * - tyru/vim-altercmd
      - using
      -
@@ -604,10 +682,10 @@ Vim plugins
      - using
      -
      -
-   * - hokorobi/vim-howm-syntax-mini
-     - using
-     -
-     -
+   * - iberianpig/tig-explorer.vim
+     - delete
+     - シェルスクリプトを実行するみたいなので Windows では使えなかった。
+     - 2020-05-23
    * - vim-jp/vital.vim
      - delete
      -
