@@ -121,7 +121,7 @@ Vim plugins
      - REPL。ほとんど使っていない。
      - 2020-03-22
 
-.. list-table:: text object
+.. list-table:: Text Object
    :header-rows: 1
 
    * - repogitory
@@ -269,7 +269,7 @@ Vim plugins
      - using
      -
      -
-.. list-table:: colorscheme
+.. list-table:: Colorscheme
    :header-rows: 1
 
    * - repogitory
@@ -286,7 +286,7 @@ Vim plugins
      - ネタとしては好きだけど、常用するにはちょっと辛く感じた。
      - 2019-11-30
 
-.. list-table:: view
+.. list-table:: Look
    :header-rows: 1
 
    * - repogitory
@@ -311,16 +311,19 @@ Vim plugins
      - incremental search の現在のマッチ位置を表示。
      - 2020-05-11
    * - MattesGroeger/vim-bookmarks
-     - delete
+     - using
      - ファイルの位置をブックマークしてくれる
-       vim-signature へ移行。
+       vim-signature へ移行。 [2019-08-04]
      - 2019-08-04
    * - kshenoy/vim-signature
      - delete
-     - ファイルの位置をブックマークしてくれる
-       vim-bookmarks から移行。理由は思い出せない。更新された時期が比較的最近だから？
-       使わないので削除。
-     - 2020-02-18
+     - | ファイルの位置を Vim の mark に追加してくれる
+       | mark を使ってくれるのが良さそうに思えたので vim-bookmarks から移行。 [2019-08-04]
+       | 使わないので削除。 [2020-02-18]
+       | やはり使いたくなった。
+       | :SignatureListGlobalMarks でマークの復元がうまくいかないみたい。
+       | vim-bookmarks へ戻る。 [2020-05-24]
+     - 2020-05-24
    * - itchyny/vim-cursorword
      - using
      -
@@ -341,6 +344,14 @@ Vim plugins
      - using
      -
      -
+
+.. list-table:: Edit
+   :header-rows: 1
+
+   * - repogitory
+     - status
+     - comment
+     - date
    * - cohama/lexima.vim
      - using
      -
@@ -362,6 +373,14 @@ Vim plugins
      - using
      -
      -
+
+.. list-table:: Motion
+   :header-rows: 1
+
+   * - repogitory
+     - status
+     - comment
+     - date
    * - junegunn/vim-easy-align
      - using
      -
@@ -480,6 +499,14 @@ Vim plugins
      - yank でカーソル移動をさせない。
        ``nnoremap y y`>`` だと不十分なことがあったので。
      - 2020-04-14
+
+.. list-table:: Buffer
+   :header-rows: 1
+
+   * - repogitory
+     - status
+     - comment
+     - date
    * - mhinz/vim-sayonara
      - using
      -
@@ -501,6 +528,14 @@ Vim plugins
      - using
      -
      -
+
+.. list-table:: File
+   :header-rows: 1
+
+   * - repogitory
+     - status
+     - comment
+     - date
    * - kana/vim-gf-user
      - using
      -
@@ -522,7 +557,7 @@ Vim plugins
      -
      -
 
-.. list-table:: selector
+.. list-table:: Selector
    :header-rows: 1
 
    * - repogitory
@@ -604,7 +639,7 @@ Vim plugins
        vim-lsp と連携するプラグイン prabirshrestha/quickpick-lsp.vim があるみたい。
      - 2020-05-24
 
-.. list-table:: misc
+.. list-table:: Utility
    :header-rows: 1
 
    * - repogitory
@@ -661,6 +696,14 @@ Vim plugins
      - using
      -
      -
+
+.. list-table:: Web Service
+   :header-rows: 1
+
+   * - repogitory
+     - status
+     - comment
+     - date
    * - lambdalisue/vim-gista
      - using
      -
@@ -670,6 +713,14 @@ Vim plugins
      - Qiita に記事を書く。
        Qiita に書くことがほとんどなく、書く時も Web ブラウザを使うことが多いので削除。
      - 2019-09-28
+
+.. list-table:: Others
+   :header-rows: 1
+
+   * - repogitory
+     - status
+     - comment
+     - date
    * - fedorenchik/VimCalc3
      - using
      -
