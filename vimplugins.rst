@@ -214,8 +214,12 @@ Vim plugins
      - 2020-03-15
    * - AndrewRadev/quickpeek.vim
      - using
-     - Quickfix のプレビュー
+     - Quickfix をポップアップウィンドウでプレビュー
      - 2020-03-22
+   * - ronakg/quickr-preview.vim
+     - todo
+     - Quickfix を別ウィンドウでプレビュー
+     - 2020-05-31
    * - vim-jp/syntax-vim-ex
      - using
      -
@@ -314,7 +318,12 @@ Vim plugins
      - using
      - ファイルの位置をブックマークしてくれる
        vim-signature へ移行。 [2019-08-04]
-     - 2019-08-04
+       やっぱり使い始めた。 [2020-05-31]
+     - 2020-05-31
+   * - hokorobi/vim-bookmarks
+     - using
+     - CtrlP でファイル名を表示できるように変更。 [2020-05-24]
+     - 2020-05-24
    * - kshenoy/vim-signature
      - delete
      - | ファイルの位置を Vim の mark に追加してくれる
