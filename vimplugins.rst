@@ -518,11 +518,15 @@ Vim plugins
      - date
    * - mhinz/vim-sayonara
      - using
-     -
-     -
+     - | いい感じにバッファを閉じてくれる。
+       | filetype に応じた閉じるコマンドの指定もできる。
+       | 直前のバッファも一緒に閉じる場合がある。自分の誤操作が原因か？
+       | すべてのバッファを閉じると CtrlP で開いたバッファが vsplit される。CtrlP の問題か？
+     - 2020-06-07
    * - tyru/capture.vim
      - using
-     -
+     - コマンドの実行結果などをバッファに取り込んでくれる。
+       [nvxstoilc]?map, scriptnames, messages には個別のコマンドを定義して使っている。
      -
    * - ap/vim-buftabline
      - using
@@ -608,12 +612,17 @@ Vim plugins
      -
    * - printesoi/ctrlp-filetype.vim
      - using
-     -
-     -
+     - CtrlP で filetype を指定
+     - 2020-06-07
    * - christoomey/ctrlp-generic
      - using
-     -
-     -
+     - 外部コマンドの結果を CtrlP で選択して入力する CtrlPCmdPaste を作成。使っていない…
+     - 2020-06-07
+   * - suy/vim-ctrlp-commandline
+     - using
+     - | コマンドラインの履歴を CtrlP で使う。
+       | 直接実行だけでなく <C-t> でコマンドラインに表示することができるので、ちょっと変更して再実行も可能。
+     - 2020-06-07
    * - mattn/vim-fz
      - delete
      - gof を呼び出してファイルを開く
