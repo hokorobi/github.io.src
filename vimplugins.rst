@@ -212,6 +212,11 @@ Vim plugins
      - todo
      - quickfix を便利に使えるようになるみたい。qfloc.vim より多機能？
      - 2020-03-15
+   * - thinca/vim-qfreplace
+     - using
+     - quickfix の内容を編集して実ファイルに反映できる。
+       検索して、置換が見ながらできる。
+     - 2020-06-15
    * - AndrewRadev/quickpeek.vim
      - using
      - Quickfix をポップアップウィンドウでプレビュー
@@ -262,9 +267,10 @@ Vim plugins
      -
      -
    * - mattn/emmet-vim
-     -
-     -
-     -
+     - delete
+     - HTML の入力を便利にしてくれるけど覚えられない。
+       機会も少ないので削除。
+     - 2020-06-14
    * - hokorobi/vim-changelog-alt
      - delete
      - 本体同梱の changelog プラグインを自分好みにしようとしたけど、大して帰るところがなかったので削除。
@@ -478,9 +484,10 @@ Vim plugins
        これなら edgemotion の方が好み。
      - 2020-04-18
    * - machakann/vim-columnmove
-     - using
+     - delete
      - f t F T ; , w b e ge W B E gE を縦方向に使える。
-     - 2020-04-18
+       使わなかった。縦方向の位置を確認するのも大変なので必要なら easymotion を使う。
+     - 2020-06-08
    * - pechorin/any-jump.vim
      - todo
      - 定義にジャンプできるらしい。
@@ -508,6 +515,12 @@ Vim plugins
      - yank でカーソル移動をさせない。
        ``nnoremap y y`>`` だと不十分なことがあったので。
      - 2020-04-14
+   * - AlphaMycelium/pathfinder.vim
+     - delete
+     - カーソル移動の改善を提案してくれるみたい。
+       試してみたけどエラーが出る。
+       調べてもいない。
+     - 2020-06-10
 
 .. list-table:: Buffer
    :header-rows: 1
