@@ -316,20 +316,36 @@ Vim plugins
      - delete
      - こちらも buftabline の方が好みだった。
      - 2019-10-24
+   * - pacha/vem-tabline
+     - delete
+     - バッファが増えたら tabline に表示されるかと思ったら、そんなことなかった。
+       もともとそういう機能なのか設定か環境が悪いのか…
+     - 2020-07-01
    * - osyo-manga/vim-anzu
      - using
      - incremental search の現在のマッチ位置を表示。
      - 2020-05-11
    * - MattesGroeger/vim-bookmarks
-     - using
+     - delete
      - ファイルの位置をブックマークしてくれる
        vim-signature へ移行。 [2019-08-04]
        やっぱり使い始めた。 [2020-05-31]
      - 2020-05-31
    * - hokorobi/vim-bookmarks
      - using
-     - CtrlP でファイル名を表示できるように変更。 [2020-05-24]
+     - MattesGroeger/vim-bookmarks を Fork.
+       CtrlP でファイル名を表示できるように変更。 [2020-05-24]
      - 2020-05-24
+   * - Yilin-Yang/vim-markbar
+     - delete
+     - mark を sidebar で表示。
+       フィルタリングで絞り込めないとちょっと辛いかな。
+     - 2020-07-14
+   * - junegunn/vim-peekaboo
+     - delete
+     - レジスタをサイドバーで表示。
+       レジスタをそんなに活用できていないので使わない。
+     - 2020-07-14
    * - kshenoy/vim-signature
      - delete
      - | ファイルの位置を Vim の mark に追加してくれる
@@ -537,10 +553,11 @@ Vim plugins
        | すべてのバッファを閉じると CtrlP で開いたバッファが vsplit される。CtrlP の問題か？
      - 2020-06-07
    * - tyru/capture.vim
-     - using
+     - delete
      - コマンドの実行結果などをバッファに取り込んでくれる。
        [nvxstoilc]?map, scriptnames, messages には個別のコマンドを定義して使っている。
-     -
+       簡単なコマンドで代用できそうなのでそちらへ移行。
+     - 2020-06-20
    * - ap/vim-buftabline
      - using
      - tabline にバッファを羅列する。タブがある場合はタブを表示。
@@ -713,6 +730,11 @@ Vim plugins
      - using
      -
      -
+   * - RRethy/vim-hexokinase
+     - todo
+     - colorizer が推奨している。
+       別途 CLI の hexokinase が必要みたい。
+     - 2020-07-24
    * - tyru/open-browser.vim
      - using
      - URL を Web ブラウザで開く。
@@ -727,6 +749,12 @@ Vim plugins
      - using
      -
      -
+   * - mhinz/vim-grepper
+     - delete
+     - 各 grep 系ツールをよしなに使えるみたい。
+       pt で使おうとしたけどエラーが出て動かなかった。
+       そんなに便利な感じもなさそうなので措いておこう。
+     - 2020-07-09
 
 .. list-table:: Web Service
    :header-rows: 1
