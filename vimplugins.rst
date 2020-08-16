@@ -86,7 +86,7 @@ Vim plugins
      - 2020-01-19
    * - Shougo/neosnippet.vim
      - using
-     -
+     - golang の iferr 補完がほかでも使えるなら移行してもいいかな。
      -
    * - Shougo/neosnippet-snippets
      - using
@@ -96,10 +96,17 @@ Vim plugins
      - using
      -
      -
-   * - coc.nvim
+   * - neoclide/coc.nvim
      - delete
      - 補完速度が比較的遅いので asyncomplete.vim に移行。
      -
+   * - gelguy/wilder.nvim
+     - using
+     - コマンドラインモードでの補完。
+       :, /, help, :s/ など
+       statusline がたまに元に戻らないのが気になる。
+       すごいけど、本当に便利なのかな？
+     - 2020-08-16
 
 .. list-table:: REPL?
    :header-rows: 1
@@ -157,9 +164,9 @@ Vim plugins
      -
      -
    * - Julian/vim-textobj-variable-segment
-     - using
-     -
-     -
+     - delete
+     - vim-textobj-delimited が Camel case にも対応しているので、こちらはいらなそう。
+     - 2020-08-16
 
 .. list-table:: filetype
    :header-rows: 1
@@ -227,8 +234,13 @@ Vim plugins
      - 2020-05-31
    * - vim-jp/syntax-vim-ex
      - using
-     -
-     -
+     - Vim 本体の変更に追従して更新される Vim Script の Syntax ファイル。
+     - 2020-08-01
+   * - rbtnn/vim-vimscript_tagfunc
+     - using
+     - tags ファイルなしでもジャンプできるようになる
+       dein のキャッシュファイルに対してもジャンプ可能。
+     - 2020-08-01
    * - pangloss/vim-javascript
      - using
      -
@@ -629,9 +641,10 @@ Vim plugins
      -
      -
    * - ivalkeen/vim-ctrlp-tjump
-     - using
-     -
-     -
+     - delete
+     - タグジャンプ先が複数ある場合に CtrlP で選択できるようになる。
+       そういった場合がほとんどなかったので削除
+     - 2020-08-01
    * - ompugao/ctrlp-locate
      - using
      -
