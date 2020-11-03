@@ -723,6 +723,10 @@ Vim plugins
      - using
      -
      -
+   * - sentriz/vim-print-debug
+     - using
+     - print debug 用のコードをそれぞれの言語の書式で挿入してくれる。
+     - 2020-08-25
    * - mattn/webapi-vim
      - using
      -
