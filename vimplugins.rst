@@ -167,6 +167,10 @@ Vim plugins
      - using
      - 行の textobj。
      -
+   * - romgrk/equal.operator
+     - using
+     - 左辺、右辺の textobj。
+     - 2020-11-08
    * - Julian/vim-textobj-variable-segment
      - delete
      - vim-textobj-delimited が Camel case にも対応しているので、こちらはいらなそう。
