@@ -163,6 +163,10 @@ Vim plugins
      - using
      -
      -
+   * - kana/vim-textobj-line
+     - using
+     - 行の textobj。
+     -
    * - Julian/vim-textobj-variable-segment
      - delete
      - vim-textobj-delimited が Camel case にも対応しているので、こちらはいらなそう。
