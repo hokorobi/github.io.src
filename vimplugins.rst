@@ -780,6 +780,15 @@ Vim plugins
        pt で使おうとしたけどエラーが出て動かなかった。
        そんなに便利な感じもなさそうなので措いておこう。
      - 2020-07-09
+   * - mattboehm/vim-unstack
+     - todo
+     - スタックトレースを追いかける
+     - 2020-11-22
+   * - mattboehm/vim-accordion
+     - todo
+     - Split で表示するウィンドウ数を制限する。
+       vim-unstack でどんどん開くときに使うみたい。
+     - 2020-11-22
 
 .. list-table:: Web Service
    :header-rows: 1
