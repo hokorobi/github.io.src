@@ -240,6 +240,11 @@ Vim plugins
      - todo
      - Quickfix を別ウィンドウでプレビュー
      - 2020-05-31
+   * - mattn/vim-qfnavigate
+     - using
+     - | 表示されている Quickfix または location-list の次の項目、前の項目を表示するマッピングを提供する。
+       | location-list をほとんど使わないので、cnext, cprevious をマッピングするだけで事足りている。
+     - 2020-12-15
    * - vim-jp/syntax-vim-ex
      - using
      - Vim 本体の変更に追従して更新される Vim Script の Syntax ファイル。
@@ -342,9 +347,14 @@ Vim plugins
        もともとそういう機能なのか設定か環境が悪いのか…
      - 2020-07-01
    * - osyo-manga/vim-anzu
-     - using
-     - incremental search の現在のマッチ位置を表示。
+     - delete
+     - | incremental search の現在のマッチ位置を表示。
+       | vim-hitspop へ移行。 [2020-12-02]
      - 2020-05-11
+   * - obcat/vim-hitspop
+     - using
+     - incremental search の現在のマッチ位置をポップアップで表示。
+     - 2020-12-02
    * - MattesGroeger/vim-bookmarks
      - delete
      - ファイルの位置をブックマークしてくれる
