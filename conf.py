@@ -51,6 +51,9 @@ trimblank_keep_alnum_blank = ['html', 'singlehtml']
 # 日本語の文字区切りを改善
 extensions.append('sphinx_tsegsearch')
 
+# needs
+# extensions.append('sphinxcontrib.needs')
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
