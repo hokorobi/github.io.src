@@ -355,6 +355,11 @@ Vim plugins
      - using
      - incremental search の現在のマッチ位置をポップアップで表示。
      - 2020-12-02
+   * - haya14busa/is.vim
+     - using
+     - | vim-hitspop のポップアップ表示を消去するために使用。
+       | 自動のマッピング設定が N にはマッピングされるのに、なぜか n にマッピングされなかったので個別に設定。
+     - 2020-12-25
    * - MattesGroeger/vim-bookmarks
      - delete
      - ファイルの位置をブックマークしてくれる
@@ -741,6 +746,10 @@ Vim plugins
      - using
      -
      -
+   * - haya14busa/vim-metarepeat
+     - todo
+     - / で検索した値を元に繰り返し（選択範囲のすべての値なども）置換ができる？
+     - 2021-01-03
    * - sentriz/vim-print-debug
      - using
      - print debug 用のコードをそれぞれの言語の書式で挿入してくれる。
